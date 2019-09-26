@@ -1,0 +1,16 @@
+--2019-05-23 09:41:34--  http://uwyo.edu/
+Resolving uwyo.edu (uwyo.edu)... 129.72.61.197
+Connecting to uwyo.edu (uwyo.edu)|129.72.61.197|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://www.uwyo.edu/ [following]
+--2019-05-23 09:41:35--  https://www.uwyo.edu/
+Resolving www.uwyo.edu (www.uwyo.edu)... 129.72.61.21
+Connecting to www.uwyo.edu (www.uwyo.edu)|129.72.61.21|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 36107 (35K) [text/html]
+Saving to: ‘index.html.1957’
+
+     0K .......... .......... .......... .....                100%  324K=0.1s
+
+2019-05-23 09:41:35 (324 KB/s) - ‘index.html.1957’ saved [36107/36107]
+

@@ -1,0 +1,405 @@
+wget: unable to resolve host address ‘npcc.edu’ 
+ERROR: cannot verify aamu.edu's certificate, issued by ‘emailAddress=info@efficientip.com,CN=solid.intranet,OU=IPManager,O=EfficientIP,L=Paris,ST=none,C=FR’:Self-signed certificate encountered.
+wget: unable to resolve host address ‘faulknerstate.edu’
+wget: unable to resolve host address ‘astate.edu’
+wget: unable to resolve host address ‘midsouthcc.edu’
+wget: unable to resolve host address ‘pulaskitech.edu’
+wget: unable to resolve host address ‘uapb.edu’
+
+  Unable to locally verify the issuer's authority.
+wget: unable to resolve host address ‘allied.edu’
+
+2019-05-23 07:51:54 ERROR 403: Forbidden.
+error http://ccsf.edu red
+
+wget: unable to resolve host address ‘chaffey.edu’
+unable http://chaffey.edu red
+
+2019-05-23 07:52:26 ERROR 404: Not Found.
+error http://compton.edu red
+
+wget: unable to resolve host address ‘csupomona.edu’
+unable http://csupomona.edu red
+
+wget: unable to resolve host address ‘elcamino.edu’
+unable http://elcamino.edu red
+
+2019-05-23 07:53:56 ERROR 403: Forbidden.
+error http://gavilan.edu red
+
+wget: unable to resolve host address ‘ggbts.edu’
+unable http://ggbts.edu red
+
+  Unable to locally verify the issuer's authority.
+unable http://gocolumbia.edu red
+
+wget: unable to resolve host address ‘la.edu’
+unable http://la.edu red
+
+HTTP request sent, awaiting response... Read error (Connection timed out) in headers.
+error http://ndnu.edu red
+
+http://rccd.edu green
+http://redlands.edu green
+ERROR: no certificate subject alternative name matchesTo connect to redwoods.edu insecurely, use `no-check-certificate'.
+error certicicate http://redwoods.edu yellow
+
+wget: unable to resolve host address ‘sce.edu’
+unable http://sce.edu red
+
+  Unable to locally verify the issuer's authority.
+unable http://westvalley.edu red
+2019-05-23 08:00:31 ERROR 404: Not Found.
+error http://whccd.edu red
+
+wget: unable to resolve host address ‘colostate-pueblo.edu’
+unable http://colostate-pueblo.edu red
+
+2019-05-23 08:01:58 ERROR 403: Forbidden.
+error http://redstone.edu red
+
+http://qvcc.edu green
+http://sacredheart.edu green
+
+wget: unable to resolve host address ‘gwu.edu’
+unable http://gwu.edu red
+
+wget: unable to resolve host address ‘dadmedical.edu’
+unable http://dadmedical.edu red
+
+wget: unable to resolve host address ‘edison.edu’
+unable http://edison.edu red
+
+  Unable to locally verify the issuer's authority.
+unable http://evergladesuniversity.edu red
+
+  Unable to locally verify the issuer's authority.
+unable http://keiseruniversity.edu red
+
+  Unable to locally verify the issuer's authority.
+unable http://lssc.edu red
+
+wget: unable to resolve host address ‘ringling.edu’
+unable http://ringling.edu red
+
+ERROR: cannot verify www.armstrong.edu's certificate, issued by ‘CN=GeoTrust RSA CA2018,OU=www.digicert.com,O=DigiCert Inc,C=US’: Issued certificate has expired.
+
+wget: unable to resolve host address ‘darton.edu’
+unable http://darton.edu red
+
+wget: unable to resolve host address ‘gru.edu’
+unable http://gru.edu red
+
+wget: unable to resolve host address ‘okefenokeetech.edu’
+unable http://okefenokeetech.edu red
+
+wget: unable to resolve host address ‘aib.edu’
+unable http://aib.edu red
+
+wget: unable to resolve host address ‘iwc.edu’
+unable http://iwc.edu red
+
+2019-05-23 08:16:49 ERROR 403: Forbidden.
+error http://palmer.edu red
+
+wget: unable to resolve host address ‘wartburg.edu’
+unable http://wartburg.edu red
+
+2019-05-23 08:17:34 ERROR 403: Forbidden.
+error http://ben.edu red
+
+wget: unable to resolve host address ‘clcillinois.edu’
+unable http://clcillinois.edu red
+
+  Unable to locally verify the issuer's authority.
+unable http://colum.edu red
+
+wget: unable to resolve host address ‘ivcc.edu’
+unable http://ivcc.edu red
+
+wget: unable to resolve host address ‘kishwaukeecollege.edu’
+unable http://kishwaukeecollege.edu red
+
+  Unable to locally verify the issuer's authority.
+unable http://llcc.edu red
+
+2019-05-23 08:19:32 ERROR 403: Forbidden.
+error http://mccollege.edu red
+
+wget: unable to resolve host address ‘stjohnscollegespringfield.edu’
+unable http://stjohnscollegespringfield.edu red
+
+wget: unable to resolve host address ‘harrison.edu’
+unable http://harrison.edu red
+
+wget: unable to resolve host address ‘pnc.edu’
+unable http://pnc.edu red
+
+wget: unable to resolve host address ‘purduecal.edu’
+unable http://purduecal.edu red
+
+wget: unable to resolve host address ‘benedictine.edu’
+unable http://benedictine.edu red
+
+wget: unable to resolve host address ‘gcccks.edu’
+unable http://gcccks.edu red
+
+wget: unable to resolve host address ‘moreheadstate.edu’
+unable http://moreheadstate.edu red
+
+wget: unable to resolve host address ‘sccky.edu’
+unable http://sccky.edu red
+
+wget: unable to resolve host address ‘lsusystem.edu’
+unable http://lsusystem.edu red
+
+wget: unable to resolve host address ‘subr.edu’
+unable http://subr.edu red
+
+wget: unable to resolve host address ‘hbs.edu’
+unable http://hbs.edu red
+
+wget: unable to resolve host address ‘mass.edu’
+unable http://mass.edu red
+
+  Unable to locally verify the issuer's authority.
+unable http://milton.edu red
+
+  Unable to locally verify the issuer's authority.
+unable http://bowiestate.edu red
+
+http://csmd.edu green
+http://frederick.edu green
+
+wget: unable to resolve host address ‘pgcc.edu’
+unable http://pgcc.edu red
+
+2019-05-23 08:32:17 ERROR 403: Forbidden.
+error http://sdc.edu red
+
+wget: unable to resolve host address ‘usmd.edu’
+unable http://usmd.edu red
+
+wget: unable to resolve host address ‘worwic.edu’
+unable http://worwic.edu red
+
+wget: unable to resolve host address ‘mcnallysmith.edu’
+unable http://mcnallysmith.edu red
+
+  Unable to locally verify the issuer's authority.
+unable http://fontbonne.edu red
+wget: unable to resolve host address ‘hlg.edu’
+unable http://hlg.edu red
+
+  Unable to locally verify the issuer's authority.
+unable http://jeffco.edu red
+
+wget: unable to resolve host address ‘lincolne.edu’
+unable http://lincolne.edu red
+
+wget: unable to resolve host address ‘linnstate.edu’
+unable http://linnstate.edu red
+
+HTTP request sent, awaiting response... Read error (Connection reset by peer) in headers.
+error http://moval.edu red
+
+2019-05-23 08:40:31 ERROR 503: Service Unavailable.
+error http://belhaven.edu red
+
+wget: unable to resolve host address ‘mssstate.edu’
+unable http://mssstate.edu red
+wget: unable to resolve host address ‘nemcc.edu’
+unable http://nemcc.edu red
+
+2019-05-23 08:41:02 ERROR 404: Not Found.
+error http://iccms.edu red
+
+wget: unable to resolve host address ‘umhelena.edu’
+unable http://umhelena.edu red
+
+wget: unable to resolve host address ‘nlts.edu’
+unable http://nlts.edu red
+
+HTTP request sent, awaiting response... Read error (Connection timed out) in headers.
+error http://piedmontcc.edu red
+
+2019-05-23 08:44:46 ERROR 500: Internal Server Error.
+error http://randolph.edu red
+
+2019-05-23 08:44:58 ERROR 403: Forbidden.
+error http://sandhills.edu red
+
+wget: unable to resolve host address ‘sapc.edu’
+unable http://sapc.edu red
+
+  Unable to locally verify the issuer's authority.
+unable http://stanly.edu red
+
+wget: unable to resolve host address ‘utcc.edu’
+unable http://utcc.edu red
+
+2019-05-23 08:47:31 ERROR 403: Forbidden.
+error http://bryanhealth.com red
+
+Unable to establish SSL connection.
+unable http://creighton.edu red
+
+2019-05-23 08:48:44 ERROR 403: Forbidden.
+error http://mccnh.edu red
+
+wget: unable to resolve host address ‘mountwashington.edu’
+unable http://mountwashington.edu red
+
+2019-05-23 08:48:53 ERROR 403: Forbidden.
+error http://nec.edu red
+
+wget: unable to resolve host address ‘bcc.edu’
+unable http://bcc.edu red
+
+wget: unable to resolve host address ‘centenarycollege.edu’
+unable http://centenarycollege.edu red
+
+2019-05-23 08:50:20 ERROR 403: Forbidden.
+error http://shu.edu red
+
+HTTP request sent, awaiting response... Read error (Connection timed out) in headers.
+error http://tesc.edu red
+
+2019-05-23 08:52:10 ERROR 403: Forbidden.
+error http://nmsua.edu red
+
+2019-05-23 08:52:22 ERROR 403: Forbidden.
+error http://swc.edu red
+
+http://albany.edu green
+http://alfred.edu green
+
+wget: unable to resolve host address ‘ecc.edu.ecc.edu’
+unable http://ecc.edu red
+
+http://fordham.edu green
+http://fredonia.edu green
+
+  Unable to locally verify the issuer's authority.
+unable http://limcollege.edu red
+
+wget: unable to resolve host address ‘monroecc.edu’
+unable http://monroecc.edu red
+
+HTTP request sent, awaiting response... Read error (Connection timed out) in headers.
+error http://rit.edu red
+
+wget: unable to resolve host address ‘sft.edu’
+unable http://sft.edu red
+
+wget: unable to resolve host address ‘stjohns.edu’
+unable http://stjohns.edu red
+
+2019-05-23 09:00:24 ERROR 403: Forbidden.
+error http://suny.edu red
+
+2019-05-23 09:04:55 ERROR 404: Not Found.
+error http://findlay.edu red
+
+wget: unable to resolve host address ‘kent.edu’
+unable http://kent.edu red
+
+wget: unable to resolve host address ‘ncnm.edu’
+unable http://ncnm.edu red
+
+wget: unable to resolve host address ‘bbc.edu’
+unable http://bbc.edu red
+
+  Unable to locally verify the issuer's authority.
+unable http://carlow.edu red
+
+2019-05-23 09:15:49 ERROR 403: Forbidden.
+error http://hacc.edu red
+
+2019-05-23 09:16:43 ERROR 403: Forbidden.
+error http://lincoln.edu red
+
+2019-05-23 09:17:00 ERROR 403: Forbidden.
+error http://mansfield.edu red
+
+wget: unable to resolve host address ‘swarthmor.edu’
+unable http://swarthmor.edu red
+
+wget: unable to resolve host address ‘vfcc.edu’
+unable http://vfcc.edu red
+
+Unable to establish SSL connection.
+unable http://washjeff.edu red
+wget: unable to resolve host address ‘wccc.edu’
+unable http://wccc.edu red
+
+2019-05-23 09:19:08 ERROR 503: Service Unavailable: Back-end server is at capacity.
+error http://ycp.edu red
+
+  Unable to locally verify the issuer's authority.
+unable http://tctc.edu red
+
+wget: unable to resolve host address ‘usioxfalls.edu’
+unable http://usioxfalls.edu red
+
+wget: unable to resolve host address ‘tn.edu’
+unable http://tn.edu red
+wget: unable to resolve host address ‘tnstate.edu’
+unable http://tnstate.edu red
+
+  Unable to locally verify the issuer's authority.
+unable http://utsi.edu red
+
+  Unable to locally verify the issuer's authority.
+unable http://bshp.edu red
+wget: unable to resolve host address ‘careerpointcollege.edu’
+unable http://careerpointcollege.edu red
+
+wget: unable to resolve host address ‘northamerican.edu’
+unable http://northamerican.edu red
+
+wget: unable to resolve host address ‘southtexascollege.htp’
+unable http://southtexascollege.htp red
+
+2019-05-23 09:30:10 ERROR 403: Forbidden.
+error http://tamiu.edu red
+
+wget: unable to resolve host address ‘utmb.edu’
+unable http://utmb.edu red
+
+wget: unable to resolve host address ‘utah.edu’
+unable http://utah.edu red
+
+wget: unable to resolve host address ‘ipsciences.edu’
+unable http://ipsciences.edu red
+
+wget: unable to resolve host address ‘vims.edu’
+unable http://vims.edu red
+
+wget: unable to resolve host address ‘vwc.edu’
+unable http://vwc.edu red
+
+HTTP request sent, awaiting response... Read error (Connection reset by peer) in headers.
+error http://wm.edu red
+
+  Unable to locally verify the issuer's authority.
+unable http://greenmtn.edu red
+
+wget: unable to resolve host address ‘cascadia.edu’
+unable http://cascadia.edu red
+
+2019-05-23 09:36:24 ERROR 403: Forbidden.
+error http://faithseminary.edu red
+
+2019-05-23 09:39:18 ERROR 403: Forbidden.
+error http://matc.edu red
+
+wget: unable to resolve host address ‘viterbo.edu’
+unable http://viterbo.edu red
+
+wget: unable to resolve host address ‘shepherd.edu’
+unable http://shepherd.edu red
+
+wget: unable to resolve host address ‘northwestcollege.edu’
+unable http://northwestcollege.edu red
+

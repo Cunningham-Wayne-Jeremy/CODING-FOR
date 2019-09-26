@@ -1,0 +1,2 @@
+This is some text that we will copy over using the python function called write or is it an attribute? 
+I dont know to be honest but I hate a certain some one and wish upon them the worst possible

@@ -1,0 +1,2318 @@
+wget: unable to resolve host address ‘npcc.edu’
+unable http://npcc.edu red
+http://uaf.edu green
+http://uafs.edu green
+ERROR: cannot verify aamu.edu's certificate, issued by ‘emailAddress=info@efficientip.com,CN=solid.intranet,OU=IPManager,O=EfficientIP,L=Paris,ST=none,C=FR’:
+  Self-signed certificate encountered.
+    ERROR: certificate common name ‘solid.intranet’ doesn't match requested host name ‘aamu.edu’.
+To connect to aamu.edu insecurely, use `--no-check-certificate'.
+error certicicate http://aamu.edu yellow
+http://athens.edu green
+http://auburn.edu green
+http://aum.edu green
+http://bsc.edu green
+http://calhoun.edu green
+http://escc.edu green
+wget: unable to resolve host address ‘faulknerstate.edu’
+unable http://faulknerstate.edu red
+http://gadsdenstate.edu green
+http://huntingdon.edu green
+http://jsu.edu green
+http://lbwcc.edu green
+http://montevallo.edu green
+http://nacc.edu green
+http://nwscc.edu green
+http://oakwood.edu green
+http://samford.edu green
+http://sebc.edu green
+http://southalabama.edu green
+http://trenholmstate.edu green
+http://troy.edu green
+http://tuskegee.edu green
+http://ua.edu green
+http://uab.edu green
+http://uah.edu green
+http://una.edu green
+http://snead.edu green
+http://anc.edu green
+wget: unable to resolve host address ‘astate.edu’
+unable http://astate.edu red
+http://atu.edu green
+http://cbc.edu green
+http://harding.edu green
+http://hendrix.edu green
+http://hsu.edu green
+http://jbu.edu green
+http://lyon.edu green
+wget: unable to resolve host address ‘midsouthcc.edu’
+unable http://midsouthcc.edu red
+http://northark.edu green
+http://nwacc.edu green
+http://nwti.edu green
+http://obu.edu green
+http://ozarks.edu green
+http://pccua.edu green
+wget: unable to resolve host address ‘pulaskitech.edu’
+unable http://pulaskitech.edu red
+http://saumag.edu green
+http://seark.edu green
+http://uaccb.edu green
+http://ualr.edu green
+http://uams.edu green
+wget: unable to resolve host address ‘uapb.edu’
+unable http://uapb.edu red
+http://uark.edu green
+http://uca.edu green
+http://wbcoll.edu green
+http://arizona.edu green
+"http://asu.edu green
+2019-05-23 07:48:41 ERROR 404: Not Found.
+error https://asuonline.asu.edu/" red
+X Error of failed request:  BadValue (integer parameter out of range for operation)
+  Major opcode of failed request:  132 (XTEST)
+  Minor opcode of failed request:  2 (X_XTestFakeInput)
+  Value in failed request:  0x0
+  Serial number of failed request:  18
+  Current serial number in output stream:  19
+http://azwestern.edu green
+http://bryanuniversity.edu green
+http://centralaz.edu green
+http://gccaz.edu green
+http://gcu.edu green
+http://maricopa.edu green
+http://mesacc.edu green
+http://nau.edu green
+http://npc.edu green
+http://phoenix.edu green
+http://phoenixcollege.edu green
+http://pima.edu green
+  Unable to locally verify the issuer's authority.
+unable http://prescott.edu red
+http://riosalado.edu green
+http://southmountaincc.edu green
+http://uat.edu green
+http://yc.edu green
+http://academyart.edu green
+http://advancedcomputinginstitute.edu green
+http://aimc.edu green
+http://alliant.edu green
+wget: unable to resolve host address ‘allied.edu’
+unable http://allied.edu red
+http://anaheim.edu green
+http://angelescollege.edu green
+http://antiochla.edu green
+http://argosy.edu green
+http://artcenter.edu green
+http://artinstitutes.edu green
+http://ashford.edu green
+http://ati.edu green
+ERROR: no certificate subject alternative name matches
+To connect to avc.edu insecurely, use `--no-check-certificate'.
+error certicicate http://avc.edu yellow
+http://bakersfieldcollege.edu green
+http://barstow.edu green
+http://berkeley.edu green
+http://berkeleycitycollege.edu green
+http://brandman.edu green
+http://butte.edu green
+http://cabrillo.edu green
+http://calarts.edu green
+http://calbaptist.edu green
+http://callutheran.edu green
+http://calmu.edu green
+http://calpoly.edu green
+http://calstate.edu green
+http://caltech.edu green
+http://canadacollege.edu green
+http://canyons.edu green
+http://cca.edu green
+http://cccco.edu green
+2019-05-23 07:51:54 ERROR 403: Forbidden.
+error http://ccsf.edu red
+X Error of failed request:  BadValue (integer parameter out of range for operation)
+  Major opcode of failed request:  132 (XTEST)
+  Minor opcode of failed request:  2 (X_XTestFakeInput)
+  Value in failed request:  0x0
+  Serial number of failed request:  18
+  Current serial number in output stream:  19
+http://cerritos.edu green
+http://cerrocoso.edu green
+http://cgu.edu green
+wget: unable to resolve host address ‘chaffey.edu’
+unable http://chaffey.edu red
+http://chapman.edu green
+http://ciis.edu green
+http://citruscollege.edu green
+http://claremont.edu green
+http://cmc.edu green
+http://cmccd.edu green
+http://cogswell.edu green
+http://collegeofsanmateo.edu green
+http://collegeofthedesert.edu green
+2019-05-23 07:52:26 ERROR 404: Not Found.
+error http://compton.edu red
+X Error of failed request:  BadValue (integer parameter out of range for operation)
+  Major opcode of failed request:  132 (XTEST)
+  Minor opcode of failed request:  2 (X_XTestFakeInput)
+  Value in failed request:  0x0
+  Serial number of failed request:  18
+  Current serial number in output stream:  19
+http://contracosta.edu green
+http://cos.edu green
+http://craftonhills.edu green
+http://csub.edu green
+http://csuci.edu green
+http://csudh.edu green
+http://csueastbay.edu green
+http://fresnostate.edu green
+http://csulb.edu green
+http://csumb.edu green
+http://csun.edu green
+wget: unable to resolve host address ‘csupomona.edu’
+unable http://csupomona.edu red
+http://csus.edu green
+http://csusb.edu green
+http://csusm.edu green
+http://csustan.edu green
+http://cuesta.edu green
+http://cuyamaca.edu green
+http://cwsl.edu green
+http://cypresscollege.edu green
+http://deanza.edu green
+http://deltacollege.edu green
+http://dominican.edu green
+http://dspt.edu green
+http://dvc.edu green
+http://elac.edu green
+wget: unable to resolve host address ‘elcamino.edu’
+unable http://elcamino.edu red
+http://expression.edu green
+http://fhda.edu green
+http://fidm.edu green
+http://fielding.edu green
+http://foothill.edu green
+http://fresno.edu green
+http://fresnocitycollege.edu green
+http://ftu.edu green
+http://fullcoll.edu green
+http://fuller.edu green
+http://fullerton.edu green
+2019-05-23 07:53:56 ERROR 403: Forbidden.
+error http://gavilan.edu red
+X Error of failed request:  BadValue (integer parameter out of range for operation)
+  Major opcode of failed request:  132 (XTEST)
+  Minor opcode of failed request:  2 (X_XTestFakeInput)
+  Value in failed request:  0x0
+  Serial number of failed request:  18
+  Current serial number in output stream:  19
+wget: unable to resolve host address ‘ggbts.edu’
+unable http://ggbts.edu red
+http://glendale.edu green
+http://gnomon.edu green
+  Unable to locally verify the issuer's authority.
+unable http://gocolumbia.edu red
+http://goldenwestcollege.edu green
+http://grossmont.edu green
+http://hancockcollege.edu green
+http://hartnell.edu green
+http://henley-putnam.edu green
+http://hmc.edu green
+http://hnu.edu green
+http://humboldt.edu green
+http://humphreys.edu green
+http://imperial.edu green
+http://issaonline.edu green
+http://itu.edu green
+http://ivc.edu green
+http://jessup.edu green
+http://jfku.edu green
+http://kgi.edu green
+wget: unable to resolve host address ‘la.edu’
+unable http://la.edu red
+http://laccd.edu green
+http://lacitycollege.edu green
+http://lahc.edu green
+http://lamission.edu green
+http://laney.edu green
+http://lasc.edu green
+http://lasierra.edu green
+http://laspositascollege.edu green
+http://lattc.edu green
+http://lauruscollege.edu green
+http://lavc.edu green
+http://laverne.edu green
+http://ucla.edu green
+http://lbcc.edu green
+http://lifewest.edu green
+http://llu.edu green
+http://lmu.edu green
+http://losmedanos.edu green
+http://losrios.edu green
+http://ltcc.edu green
+http://marin.edu green
+http://marymountcalifornia.edu green
+http://masters.edu green
+http://mccd.edu green
+http://mills.edu green
+http://miracosta.edu green
+http://mjc.edu green
+http://msjc.edu green
+http://mtsac.edu green
+http://napavalley.edu green
+HTTP request sent, awaiting response... Read error (Connection timed out) in headers.
+HTTP request sent, awaiting response... Read error (Connection timed out) in headers.
+error http://ndnu.edu red
+X Error of failed request:  BadValue (integer parameter out of range for operation)
+  Major opcode of failed request:  132 (XTEST)
+  Minor opcode of failed request:  2 (X_XTestFakeInput)
+  Value in failed request:  0x0
+  Serial number of failed request:  18
+  Current serial number in output stream:  19
+http://newschoolarch.edu green
+http://norcocollege.edu green
+http://nps.edu green
+http://ohlone.edu green
+http://orangecoastcollege.edu green
+http://otis.edu green
+http://oxy.edu green
+http://pacific.edu green
+http://pacificcollege.edu green
+http://palomar.edu green
+http://pasadena.edu green
+http://pepperdine.edu green
+http://peralta.edu green
+http://piercecollege.edu green
+http://pitzer.edu green
+http://plts.edu green
+http://pointloma.edu green
+http://pomona.edu green
+http://portervillecollege.edu green
+http://psr.edu green
+http://rcc.edu green
+http://rccd.edu green
+http://redlands.edu green
+ERROR: no certificate subject alternative name matches
+To connect to redwoods.edu insecurely, use `--no-check-certificate'.
+error certicicate http://redwoods.edu yellow
+http://riohondo.edu green
+http://rosemeadcollege.edu green
+http://sac.edu green
+http://saddleback.edu green
+http://sandiego.edu green
+http://santarosa.edu green
+http://sbcc.edu green
+wget: unable to resolve host address ‘sce.edu’
+unable http://sce.edu red
+http://scrippscollege.edu green
+http://scu.edu green
+http://scuhs.edu green
+http://sdcity.edu green
+http://sdmesa.edu green
+http://sdsu.edu green
+http://sfsu.edu green
+http://shastacollege.edu green
+http://shin-ibs.edu green
+http://sierracollege.edu green
+http://simpsonu.edu green
+http://siskiyous.edu green
+http://sjsu.edu green
+http://sksm.edu green
+http://skylinecollege.edu green
+http://smc.edu green
+http://smccd.edu green
+http://soka.edu green
+http://solano.edu green
+http://sonoma.edu green
+http://stanford.edu green
+http://stmarys-ca.edu green
+http://taftcollege.edu green
+http://tu.edu green
+http://ucdavis.edu green
+http://uchastings.edu green
+http://uci.edu green
+http://ucla.edu green
+http://uclaextension.edu green
+http://ucmerced.edu green
+http://ucop.edu green
+http://ucpress.edu green
+http://ucr.edu green
+http://ucsb.edu green
+http://ucsc.edu green
+http://ucsc-extension.edu green
+http://ucsd.edu green
+http://ucsf.edu green
+http://universityofcalifornia.edu green
+ERROR: no certificate subject alternative name matches
+To connect to uop.edu insecurely, use `--no-check-certificate'.
+error certicicate http://uop.edu yellow
+http://usc.edu green
+http://usfca.edu green
+http://valleycollege.edu green
+http://venturacollege.edu green
+http://vvc.edu green
+http://wcbc.edu green
+http://westernu.edu green
+http://westmont.edu green
+  Unable to locally verify the issuer's authority.
+unable http://westvalley.edu red
+2019-05-23 08:00:31 ERROR 404: Not Found.
+error http://whccd.edu red
+X Error of failed request:  BadValue (integer parameter out of range for operation)
+  Major opcode of failed request:  132 (XTEST)
+  Minor opcode of failed request:  2 (X_XTestFakeInput)
+  Value in failed request:  0x0
+  Serial number of failed request:  18
+  Current serial number in output stream:  19
+http://whittier.edu green
+http://wlac.edu green
+http://yccd.edu green
+http://yosemite.edu green
+http://unitekcollege.edu green
+http://vanguard.edu green
+http://swcc.edu green
+http://miis.edu green
+http://adams.edu green
+http://ahec.edu green
+http://aims.edu green
+http://arapahoe.edu green
+http://ccaurora.edu green
+http://ccd.edu green
+http://chu.edu green
+http://colorado.edu green
+ERROR: no certificate subject alternative name matches
+To connect to coloradocollege.edu insecurely, use `--no-check-certificate'.
+error certicicate http://coloradocollege.edu yellow
+http://coloradomesa.edu green
+http://colostate.edu green
+wget: unable to resolve host address ‘colostate-pueblo.edu’
+unable http://colostate-pueblo.edu red
+ERROR: no certificate subject alternative name matches
+To connect to du.edu insecurely, use `--no-check-certificate'.
+error certicicate http://du.edu yellow
+http://fortlewis.edu green
+http://frontrange.edu green
+http://jiu.edu green
+http://mines.edu green
+http://msudenver.edu green
+http://naropa.edu green
+http://ppcc.edu green
+http://pueblocc.edu green
+2019-05-23 08:01:58 ERROR 403: Forbidden.
+error http://redstone.edu red
+X Error of failed request:  BadValue (integer parameter out of range for operation)
+  Major opcode of failed request:  132 (XTEST)
+  Minor opcode of failed request:  2 (X_XTestFakeInput)
+  Value in failed request:  0x0
+  Serial number of failed request:  18
+  Current serial number in output stream:  19
+http://regis.edu green
+http://rockies.edu green
+http://rrcc.edu green
+http://taft.edu green
+http://ucar.edu green
+http://uccs.edu green
+http://ucdenver.edu green
+http://unco.edu green
+http://cu.edu green
+http://western.edu green
+http://albertus.edu green
+http://asnuntuck.edu green
+http://conncoll.edu green
+http://easternct.edu green
+http://fairfield.edu green
+http://goodwin.edu green
+http://hartford.edu green
+http://hartsem.edu green
+http://newhaven.edu green
+http://quinnipiac.edu green
+http://qvcc.edu green
+http://sacredheart.edu green
+http://southernct.edu green
+http://threerivers.edu green
+http://trincoll.edu green
+http://tunxis.edu green
+http://uchc.edu green
+http://uconn.edu green
+http://usj.edu green
+http://wcsu.edu green
+http://wesleyan.edu green
+http://yale.edu green
+http://american.edu green
+http://carnegiescience.edu green
+http://cua.edu green
+http://gallaudet.edu green
+http://georgetown.edu green
+wget: unable to resolve host address ‘gwu.edu’
+unable http://gwu.edu red
+http://howard.edu green
+http://sais-jhu.edu green
+http://ucdc.edu green
+http://udc.edu green
+http://desu.edu green
+http://dtcc.edu green
+http://gbc.edu green
+http://udel.edu green
+http://wesley.edu green
+http://wilmu.edu green
+http://albizu.edu green
+http://amcollege.edu green
+http://atom.edu green
+http://barry.edu green
+http://broward.edu green
+http://cf.edu green
+http://chipola.edu green
+http://cookman.edu green
+wget: unable to resolve host address ‘dadmedical.edu’
+unable http://dadmedical.edu red
+http://daytonastate.edu green
+http://eckerd.edu green
+wget: unable to resolve host address ‘edison.edu’
+unable http://edison.edu red
+http://erau.edu green
+  Unable to locally verify the issuer's authority.
+unable http://evergladesuniversity.edu red
+http://fau.edu green
+http://fgcu.edu green
+http://fit.edu green
+http://fiu.edu green
+http://flagler.edu green
+http://flsouthern.edu green
+http://fnu.edu green
+http://fscj.edu green
+http://fsu.edu green
+http://gulfcoast.edu green
+http://hccfl.edu green
+http://ju.edu green
+  Unable to locally verify the issuer's authority.
+unable http://keiseruniversity.edu red
+http://lorainesacademy.edu green
+  Unable to locally verify the issuer's authority.
+unable http://lssc.edu red
+http://lynn.edu green
+http://maufl.edu green
+http://mdc.edu green
+http://miami.edu green
+http://mymiu.edu green
+http://ncf.edu green
+http://nfcc.edu green
+http://nova.edu green
+http://nuhs.edu green
+http://nwfsc.edu green
+http://palmbeachstate.edu green
+http://pba.edu green
+http://pensacolastate.edu green
+http://phsc.edu green
+wget: unable to resolve host address ‘ringling.edu’
+unable http://ringling.edu red
+http://rollins.edu green
+http://saintleo.edu green
+http://scf.edu green
+http://seminolestate.edu green
+http://sfcollege.edu green
+http://southflorida.edu green
+http://spacecoast.edu green
+http://spcollege.edu green
+http://stetson.edu green
+http://stu.edu green
+http://svdp.edu green
+http://traviss.edu green
+http://ucf.edu green
+http://ufl.edu green
+http://unf.edu green
+http://usf.edu green
+http://usfsm.edu green
+http://usfsp.edu green
+http://ut.edu green
+http://uwf.edu green
+http://valenciacollege.edu green
+http://warner.edu green
+http://webber.edu green
+http://agnesscott.edu green
+http://albanytech.edu green
+ERROR: cannot verify www.armstrong.edu's certificate, issued by ‘CN=GeoTrust RSA CA 2018,OU=www.digicert.com,O=DigiCert Inc,C=US’:
+  Issued certificate has expired.
+To connect to www.armstrong.edu insecurely, use `--no-check-certificate'.
+error certicicate http://armstrong.edu yellow
+http://atlantatech.edu green
+http://atlm.edu green
+http://berry.edu green
+http://carver.edu green
+http://cceionline.edu green
+http://centralgatech.edu green
+http://clayton.edu green
+http://columbusstate.edu green
+http://columbustech.edu green
+http://covenant.edu green
+http://daltonstate.edu green
+wget: unable to resolve host address ‘darton.edu’
+unable http://darton.edu red
+http://ega.edu green
+http://emory.edu green
+http://gatech.edu green
+http://gcsu.edu green
+http://georgiasouthern.edu green
+http://ggc.edu green
+http://gpc.edu green
+wget: unable to resolve host address ‘gru.edu’
+unable http://gru.edu red
+http://gsu.edu green
+http://gsw.edu green
+http://ict.edu green
+http://johnmarshall.edu green
+http://kennesaw.edu green
+http://laniertech.edu green
+http://life.edu green
+http://mercer.edu green
+http://mga.edu green
+http://morehouse.edu green
+http://msm.edu green
+http://northgatech.edu green
+http://oglethorpe.edu green
+wget: unable to resolve host address ‘okefenokeetech.edu’
+unable http://okefenokeetech.edu red
+http://paine.edu green
+http://pfeiffer.edu green
+http://piedmont.edu green
+http://reinhardt.edu green
+http://savannahstate.edu green
+http://scad.edu green
+http://shorter.edu green
+http://southeasterntech.edu green
+http://spelman.edu green
+http://spsu.edu green
+http://thomasu.edu green
+http://uga.edu green
+http://ung.edu green
+http://usg.edu green
+http://valdosta.edu green
+http://westga.edu green
+http://wiregrass.edu green
+http://byuh.edu green
+http://chaminade.edu green
+http://hawaii.edu green
+http://midpac.edu green
+wget: unable to resolve host address ‘aib.edu’
+unable http://aib.edu red
+http://central.edu green
+http://coe.edu green
+http://cornellcollege.edu green
+http://dmacc.edu green
+http://dordt.edu green
+http://drake.edu green
+http://dwci.edu green
+http://eicc.edu green
+http://grinnell.edu green
+http://hawkeyecollege.edu green
+http://iastate.edu green
+http://iowacentral.edu green
+wget: unable to resolve host address ‘iwc.edu’
+unable http://iwc.edu red
+http://iwcc.edu green
+http://kaplanuniversity.edu green
+http://kirkwood.edu green
+http://lajames.edu green
+http://loras.edu green
+http://luther.edu green
+http://mum.edu green
+http://nicc.edu green
+2019-05-23 08:16:49 ERROR 403: Forbidden.
+error http://palmer.edu red
+X Error of failed request:  BadValue (integer parameter out of range for operation)
+  Major opcode of failed request:  132 (XTEST)
+  Minor opcode of failed request:  2 (X_XTestFakeInput)
+  Value in failed request:  0x0
+  Serial number of failed request:  18
+  Current serial number in output stream:  19
+http://sau.edu green
+http://simpson.edu green
+http://swcciowa.edu green
+http://uiowa.edu green
+http://uiu.edu green
+http://uni.edu green
+wget: unable to resolve host address ‘wartburg.edu’
+unable http://wartburg.edu red
+http://waldorf.edu green
+http://boisestate.edu green
+http://byui.edu green
+http://collegeofidaho.edu green
+http://csi.edu green
+http://isu.edu green
+http://uidaho.edu green
+http://augustana.edu green
+http://aurora.edu green
+2019-05-23 08:17:34 ERROR 403: Forbidden.
+error http://ben.edu red
+X Error of failed request:  BadValue (integer parameter out of range for operation)
+  Major opcode of failed request:  132 (XTEST)
+  Minor opcode of failed request:  2 (X_XTestFakeInput)
+  Value in failed request:  0x0
+  Serial number of failed request:  18
+  Current serial number in output stream:  19
+http://bradley.edu green
+http://ccc.edu green
+http://chicagobooth.edu green
+wget: unable to resolve host address ‘clcillinois.edu’
+unable http://clcillinois.edu red
+http://cod.edu green
+  Unable to locally verify the issuer's authority.
+unable http://colum.edu red
+http://dacc.edu green
+http://depaul.edu green
+http://dom.edu green
+http://eiu.edu green
+http://elmhurst.edu green
+http://govst.edu green
+http://greenville.edu green
+http://hadley.edu green
+http://harpercollege.edu green
+http://heartland.edu green
+http://icc.edu green
+http://ico.edu green
+http://iit.edu green
+http://illinois.edu green
+http://illinoisstate.edu green
+http://imsa.edu green
+wget: unable to resolve host address ‘ivcc.edu’
+unable http://ivcc.edu red
+http://iwu.edu green
+http://jalc.edu green
+http://jjc.edu green
+http://jmls.edu green
+http://judsonu.edu green
+http://kaskaskia.edu green
+http://kcc.edu green
+http://iit.edu green
+wget: unable to resolve host address ‘kishwaukeecollege.edu’
+unable http://kishwaukeecollege.edu red
+http://knox.edu green
+http://lakeforest.edu green
+http://lakeviewcol.edu green
+http://lc.edu green
+http://lewisu.edu green
+  Unable to locally verify the issuer's authority.
+unable http://llcc.edu red
+http://luc.edu green
+2019-05-23 08:19:32 ERROR 403: Forbidden.
+error http://mccollege.edu red
+X Error of failed request:  BadValue (integer parameter out of range for operation)
+  Major opcode of failed request:  132 (XTEST)
+  Minor opcode of failed request:  2 (X_XTestFakeInput)
+  Value in failed request:  0x0
+  Serial number of failed request:  18
+  Current serial number in output stream:  19
+http://mchenry.edu green
+http://mckendree.edu green
+http://midwestern.edu green
+http://monmouthcollege.edu green
+http://morainevalley.edu green
+http://morton.edu green
+http://neiu.edu green
+http://niu.edu green
+http://nl.edu green
+http://northpark.edu green
+http://northwestern.edu green
+http://oakton.edu green
+http://olivet.edu green
+http://ortchicagotech.edu green
+http://parkland.edu green
+http://prairiestate.edu green
+http://principiacollege.edu green
+http://resu.edu green
+http://robertmorris.edu green
+http://rockford.edu green
+http://rockvalleycollege.edu green
+http://roosevelt.edu green
+http://rosalindfranklin.edu green
+http://sacn.edu green
+http://saic.edu green
+http://sfmccon.edu green
+http://shawneecc.edu green
+http://sic.edu green
+http://siu.edu green
+http://siue.edu green
+http://src.edu green
+http://ssc.edu green
+http://stfrancis.edu green
+http://swic.edu green
+http://scu.edu green
+http://trnty.edu green
+http://uchicago.edu green
+http://uic.edu green
+http://uillinois.edu green
+http://uis.edu green
+http://illinois.edu green
+http://waubonsee.edu green
+http://wheaton.edu green
+http://wiu.edu green
+wget: unable to resolve host address ‘stjohnscollegespringfield.edu’
+unable http://stjohnscollegespringfield.edu red
+http://ambs.edu green
+http://anderson.edu green
+http://bethelcollege.edu green
+http://brownmackie.edu green
+http://bsu.edu green
+http://butler.edu green
+http://depauw.edu green
+http://earlham.edu green
+http://evansville.edu green
+http://goshen.edu green
+http://grace.edu green
+http://hanover.edu green
+wget: unable to resolve host address ‘harrison.edu’
+unable http://harrison.edu red
+http://hcc-nd.edu green
+http://indiana.edu green
+http://indstate.edu green
+http://indwes.edu green
+http://ipfw.edu green
+http://iu.edu green
+http://iub.edu green
+http://iue.edu green
+http://iun.edu green
+http://iupui.edu green
+http://ius.edu green
+http://iusb.edu green
+http://ivytech.edu green
+http://manchester.edu green
+http://marian.edu green
+http://nd.edu green
+http://oak.edu green
+wget: unable to resolve host address ‘pnc.edu’
+unable http://pnc.edu red
+http://purdue.edu green
+wget: unable to resolve host address ‘purduecal.edu’
+unable http://purduecal.edu red
+ERROR: no certificate subject alternative name matches
+To connect to rose-hulman.edu insecurely, use `--no-check-certificate'.
+error certicicate http://rose-hulman.edu yellow
+http://saintmarys.edu green
+http://trine.edu green
+http://uindy.edu green
+http://usi.edu green
+http://valpo.edu green
+http://wabash.edu green
+wget: unable to resolve host address ‘benedictine.edu’
+unable http://benedictine.edu red
+http://butlercc.edu green
+http://emporia.edu green
+http://fhsu.edu green
+http://fhtc.edu green
+http://fortscott.edu green
+wget: unable to resolve host address ‘gcccks.edu’
+unable http://gcccks.edu red
+http://hesston.edu green
+http://highlandcc.edu green
+http://jccc.edu green
+http://kckcc.edu green
+http://k-state.edu green
+http://ku.edu green
+http://mcpherson.edu green
+http://neosho.edu green
+http://newmanu.edu green
+http://pittstate.edu green
+http://spst.edu green
+http://sterling.edu green
+http://stmary.edu green
+http://washburn.edu green
+http://washburnlaw.edu green
+http://wichita.edu green
+http://asbury.edu green
+http://bellarmine.edu green
+http://berea.edu green
+http://centre.edu green
+http://eku.edu green
+http://frontier.edu green
+http://georgetowncollege.edu green
+http://kctcs.edu green
+http://kcu.edu green
+http://kysu.edu green
+http://lindsey.edu green
+http://louisville.edu green
+http://midway.edu green
+wget: unable to resolve host address ‘moreheadstate.edu’
+unable http://moreheadstate.edu red
+http://murraystate.edu green
+http://nku.edu green
+http://sbts.edu green
+wget: unable to resolve host address ‘sccky.edu’
+unable http://sccky.edu red
+http://sullivan.edu green
+http://ucumberlands.edu green
+http://wku.edu green
+http://bpcc.edu green
+http://centenary.edu green
+http://latech.edu green
+http://lci.edu green
+http://louisiana.edu green
+http://loyno.edu green
+http://lsu.edu green
+http://lsue.edu green
+http://lsuhsc.edu green
+http://lsuhscshreveport.edu green
+wget: unable to resolve host address ‘lsusystem.edu’
+unable http://lsusystem.edu red
+http://nicholls.edu green
+http://nobts.edu green
+http://nunez.edu green
+http://southeastern.edu green
+wget: unable to resolve host address ‘subr.edu’
+unable http://subr.edu red
+http://tulane.edu green
+http://ulm.edu green
+http://uno.edu green
+http://xula.edu green
+http://amherst.edu green
+http://assumption.edu green
+http://babson.edu green
+http://bc.edu green
+http://bentley.edu green
+http://berklee.edu green
+http://berkshirecc.edu green
+http://bostonconservatory.edu green
+http://brandeis.edu green
+http://bridgew.edu green
+http://bu.edu green
+http://cambridgecollege.edu green
+http://clarku.edu green
+http://curry.edu green
+http://elms.edu green
+http://emerson.edu green
+http://emmanuel.edu green
+http://endicott.edu green
+http://fitchburgstate.edu green
+http://framingham.edu green
+http://gordonconwell.edu green
+http://gordon.edu green
+http://hampshire.edu green
+http://harvard.edu green
+wget: unable to resolve host address ‘hbs.edu’
+unable http://hbs.edu red
+http://holycross.edu green
+http://lesley.edu green
+http://maritime.edu green
+wget: unable to resolve host address ‘mass.edu’
+unable http://mass.edu red
+http://massart.edu green
+http://massbay.edu green
+http://mbl.edu green
+http://mec.edu green
+http://merrimack.edu green
+http://mghihp.edu green
+  Unable to locally verify the issuer's authority.
+unable http://milton.edu red
+http://mit.edu green
+http://montserrat.edu green
+http://mountida.edu green
+http://mtholyoke.edu green
+http://mxcc.edu green
+http://mxschool.edu green
+http://nbss.edu green
+http://nesl.edu green
+http://northeastern.edu green
+http://olin.edu green
+http://salemstate.edu green
+http://simmons.edu green
+http://smith.edu green
+http://spatech.edu green
+http://springfieldcollege.edu green
+http://stcc.edu green
+http://suffolk.edu green
+http://the-bac.edu green
+http://tufts.edu green
+http://umass.edu green
+http://umassd.edu green
+http://umassmed.edu green
+http://umassp.edu green
+http://umb.edu green
+http://uml.edu green
+http://wellesley.edu green
+http://wheatoncollege.edu green
+http://wheelock.edu green
+http://williams.edu green
+http://wne.edu green
+http://worcester.edu green
+http://wpi.edu green
+http://aacc.edu green
+http://bccc.edu green
+  Unable to locally verify the issuer's authority.
+unable http://bowiestate.edu red
+http://carrollcc.edu green
+http://ccbcmd.edu green
+http://chesapeake.edu green
+http://coppin.edu green
+http://csmd.edu green
+http://frederick.edu green
+http://frostburg.edu green
+http://garrettcollege.edu green
+http://goucher.edu green
+http://hagerstowncc.edu green
+http://harford.edu green
+http://hood.edu green
+http://howardcc.edu green
+http://jhsph.edu green
+http://jhu.edu green
+http://loyola.edu green
+http://mbhs.edu green
+http://mcdaniel.edu green
+http://mica.edu green
+http://montgomerycollege.edu green
+http://msmary.edu green
+http://muih.edu green
+wget: unable to resolve host address ‘pgcc.edu’
+unable http://pgcc.edu red
+http://salisbury.edu green
+2019-05-23 08:32:17 ERROR 403: Forbidden.
+error http://sdc.edu red
+X Error of failed request:  BadValue (integer parameter out of range for operation)
+  Major opcode of failed request:  132 (XTEST)
+  Minor opcode of failed request:  2 (X_XTestFakeInput)
+  Value in failed request:  0x0
+  Serial number of failed request:  18
+  Current serial number in output stream:  19
+http://smcm.edu green
+http://stjames.edu green
+http://towson.edu green
+http://ubalt.edu green
+http://umaryland.edu green
+http://umbc.edu green
+http://umd.edu green
+http://umuc.edu green
+wget: unable to resolve host address ‘usmd.edu’
+unable http://usmd.edu red
+http://usna.edu green
+http://washcoll.edu green
+wget: unable to resolve host address ‘worwic.edu’
+unable http://worwic.edu red
+http://sjc.edu green
+http://bates.edu green
+http://bowdoin.edu green
+http://cmcc.edu green
+http://coa.edu green
+http://colby.edu green
+http://husson.edu green
+http://mainemaritime.edu green
+http://nmcc.edu green
+http://sjcme.edu green
+http://smccme.edu green
+http://umaine.edu green
+http://umfk.edu green
+http://umpi.edu green
+http://une.edu green
+http://unity.edu green
+http://yccc.edu green
+http://uma.edu green
+http://adrian.edu green
+http://albion.edu green
+http://alma.edu green
+http://alpenacc.edu green
+http://andrews.edu green
+http://aquinas.edu green
+http://baker.edu green
+http://baycollege.edu green
+http://calvin.edu green
+http://cmich.edu green
+http://collegeforcreativestudies.edu green
+http://cornerstone.edu green
+http://davenport.edu green
+http://delta.edu green
+http://douglasj.edu green
+http://emich.edu green
+http://ferris.edu green
+http://finlandia.edu green
+http://grcc.edu green
+http://gvsu.edu green
+http://hfcc.edu green
+http://hillsdale.edu green
+http://hope.edu green
+http://jccmi.edu green
+http://kettering.edu green
+http://kvcc.edu green
+http://kzoo.edu green
+http://lakemichigancollege.edu green
+http://lcc.edu green
+http://lssu.edu green
+http://ltu.edu green
+http://macomb.edu green
+http://marygrove.edu green
+http://monroeccc.edu green
+http://msu.edu green
+http://mtu.edu green
+http://nmc.edu green
+http://nmu.edu green
+http://oakland.edu green
+http://oaklandcc.edu green
+http://sagchip.edu green
+http://svsu.edu green
+http://udmercy.edu green
+http://umflint.edu green
+http://umich.edu green
+http://wayne.edu green
+http://wccnet.edu green
+http://wmich.edu green
+http://alextech.edu green
+http://anokaramsey.edu green
+http://augsburg.edu green
+http://bemidjistate.edu green
+http://bethel.edu green
+http://carleton.edu green
+http://century.edu green
+http://clcmn.edu green
+http://cord.edu green
+http://crown.edu green
+http://csbsju.edu green
+http://csp.edu green
+http://css.edu green
+http://dctc.edu green
+http://gustavus.edu green
+http://globeuniversity.edu green
+http://hamline.edu green
+http://inverhills.edu green
+http://ipr.edu green
+http://lltc.edu green
+http://luthersem.edu green
+http://macalester.edu green
+wget: unable to resolve host address ‘mcnallysmith.edu’
+unable http://mcnallysmith.edu red
+http://mesabirange.edu green
+http://metrostate.edu green
+http://mnstate.edu green
+http://mnsu.edu green
+http://nhcc.edu green
+http://normandale.edu green
+http://rasmussen.edu green
+http://ridgewater.edu green
+http://smsu.edu green
+http://smumn.edu green
+http://southcentral.edu green
+http://stcloudstate.edu green
+http://stolaf.edu green
+http://stthomas.edu green
+http://umn.edu green
+http://unitedseminary.edu green
+http://unwsp.edu green
+http://waldenu.edu green
+http://winona.edu green
+http://agts.edu green
+http://ai.edu green
+http://atsu.edu green
+http://avila.edu green
+http://ccis.edu green
+http://centralmethodist.edu green
+http://crowder.edu green
+http://culver.edu green
+http://drury.edu green
+http://evangel.edu green
+  Unable to locally verify the issuer's authority.
+unable http://fontbonne.edu red
+wget: unable to resolve host address ‘hlg.edu’
+unable http://hlg.edu red
+http://hssu.edu green
+  Unable to locally verify the issuer's authority.
+unable http://jeffco.edu red
+http://kcumb.edu green
+wget: unable to resolve host address ‘lincolne.edu’
+unable http://lincolne.edu red
+http://lindenwood.edu green
+wget: unable to resolve host address ‘linnstate.edu’
+unable http://linnstate.edu red
+http://maryville.edu green
+http://mcckc.edu green
+http://mineralarea.edu green
+http://missouri.edu green
+http://missouristate.edu green
+HTTP request sent, awaiting response... Read error (Connection reset by peer) in headers.
+HTTP request sent, awaiting response... Read error (Connection reset by peer) in headers.
+HTTP request sent, awaiting response... Read error (Connection reset by peer) in headers.
+HTTP request sent, awaiting response... Read error (Connection reset by peer) in headers.
+HTTP request sent, awaiting response... Read error (Connection reset by peer) in headers.
+error http://moval.edu red
+X Error of failed request:  BadValue (integer parameter out of range for operation)
+  Major opcode of failed request:  132 (XTEST)
+  Minor opcode of failed request:  2 (X_XTestFakeInput)
+  Value in failed request:  0x0
+  Serial number of failed request:  18
+  Current serial number in output stream:  19
+http://mssu.edu green
+http://mst.edu green
+http://ncmissouri.edu green
+http://nts.edu green
+http://nwmissouri.edu green
+http://otc.edu green
+http://park.edu green
+http://rockhurst.edu green
+http://sbuniv.edu green
+http://scccwp.edu green
+http://semo.edu green
+http://slu.edu green
+http://stchas.edu green
+http://stlcc.edu green
+http://truman.edu green
+http://ucmo.edu green
+http://umkc.edu green
+http://umsl.edu green
+http://umsystem.edu green
+http://webster.edu green
+http://westminster-mo.edu green
+http://wustl.edu green
+http://alcorn.edu green
+2019-05-23 08:40:31 ERROR 503: Service Unavailable.
+error http://belhaven.edu red
+X Error of failed request:  BadValue (integer parameter out of range for operation)
+  Major opcode of failed request:  132 (XTEST)
+  Minor opcode of failed request:  2 (X_XTestFakeInput)
+  Value in failed request:  0x0
+  Serial number of failed request:  18
+  Current serial number in output stream:  19
+http://deltastate.edu green
+http://eastms.edu green
+http://jsums.edu green
+http://mgccc.edu green
+wget: unable to resolve host address ‘mssstate.edu’
+unable http://mssstate.edu red
+wget: unable to resolve host address ‘nemcc.edu’
+unable http://nemcc.edu red
+http://olemiss.edu green
+http://prcc.edu green
+http://rts.edu green
+http://umc.edu green
+http://usm.edu green
+http://wmcarey.edu green
+2019-05-23 08:41:02 ERROR 404: Not Found.
+error http://iccms.edu red
+X Error of failed request:  BadValue (integer parameter out of range for operation)
+  Major opcode of failed request:  132 (XTEST)
+  Minor opcode of failed request:  2 (X_XTestFakeInput)
+  Value in failed request:  0x0
+  Serial number of failed request:  18
+  Current serial number in output stream:  19
+http://bfcc.edu green
+http://carroll.edu green
+http://fpcc.edu green
+http://fvcc.edu green
+http://milescc.edu green
+http://montana.edu green
+http://msubillings.edu green
+http://msun.edu green
+http://mtech.edu green
+http://mus.edu green
+http://rocky.edu green
+wget: unable to resolve host address ‘umhelena.edu’
+unable http://umhelena.edu red
+http://umt.edu green
+http://umwestern.edu green
+http://abtech.edu green
+http://alamancecc.edu green
+http://appstate.edu green
+http://bladencc.edu green
+http://bti.edu green
+http://campbell.edu green
+http://cfcc.edu green
+http://charlottelaw.edu green
+http://chowan.edu green
+http://cpcc.edu green
+http://cravencc.edu green
+http://davidson.edu green
+http://duke.edu green
+http://durhamtech.edu green
+http://ecsu.edu green
+http://ecu.edu green
+http://elon.edu green
+http://faytechcc.edu green
+http://forsythtech.edu green
+http://gardner-webb.edu green
+http://gaston.edu green
+http://gtcc.edu green
+http://heritagebiblecollege.edu green
+http://highpoint.edu green
+http://isothermal.edu green
+http://lenoircc.edu green
+http://lmc.edu green
+http://methodist.edu green
+http://umo.edu green
+http://montgomery.edu green
+http://nccu.edu green
+http://ncssm.edu green
+http://ncsu.edu green
+http://ncwc.edu green
+wget: unable to resolve host address ‘nlts.edu’
+unable http://nlts.edu red
+http://northcarolina.edu green
+HTTP request sent, awaiting response... Read error (Connection timed out) in headers.
+HTTP request sent, awaiting response... Read error (Connection timed out) in headers.
+HTTP request sent, awaiting response... Read error (Connection timed out) in headers.
+HTTP request sent, awaiting response... Read error (Connection timed out) in headers.
+HTTP request sent, awaiting response... Read error (Connection timed out) in headers.
+error http://piedmontcc.edu red
+X Error of failed request:  BadValue (integer parameter out of range for operation)
+  Major opcode of failed request:  132 (XTEST)
+  Minor opcode of failed request:  2 (X_XTestFakeInput)
+  Value in failed request:  0x0
+  Serial number of failed request:  18
+  Current serial number in output stream:  19
+http://pittcc.edu green
+http://queens.edu green
+HTTP request sent, awaiting response... 500 Internal Server Error
+2019-05-23 08:44:46 ERROR 500: Internal Server Error.
+error http://randolph.edu red
+X Error of failed request:  BadValue (integer parameter out of range for operation)
+  Major opcode of failed request:  132 (XTEST)
+  Minor opcode of failed request:  2 (X_XTestFakeInput)
+  Value in failed request:  0x0
+  Serial number of failed request:  18
+  Current serial number in output stream:  19
+http://roanokechowan.edu green
+http://salem.edu green
+http://sampsoncc.edu green
+2019-05-23 08:44:58 ERROR 403: Forbidden.
+error http://sandhills.edu red
+X Error of failed request:  BadValue (integer parameter out of range for operation)
+  Major opcode of failed request:  132 (XTEST)
+  Minor opcode of failed request:  2 (X_XTestFakeInput)
+  Value in failed request:  0x0
+  Serial number of failed request:  18
+  Current serial number in output stream:  19
+wget: unable to resolve host address ‘sapc.edu’
+unable http://sapc.edu red
+http://sccnc.edu green
+http://sebts.edu green
+http://shawu.edu green
+http://southwesterncc.edu green
+http://spcc.edu green
+  Unable to locally verify the issuer's authority.
+unable http://stanly.edu red
+http://st-aug.edu green
+http://unc.edu green
+http://unca.edu green
+http://uncc.edu green
+http://uncg.edu green
+http://uncp.edu green
+http://uncsa.edu green
+http://uncw.edu green
+http://vgcc.edu green
+http://waketech.edu green
+http://warren-wilson.edu green
+http://wcu.edu green
+http://wfu.edu green
+http://wpcc.edu green
+http://wssu.edu green
+http://dakotacollege.edu green
+http://mayvillestate.edu green
+http://minotstateu.edu green
+http://ndsu.edu green
+http://ndus.edu green
+http://tm.edu green
+http://und.edu green
+wget: unable to resolve host address ‘utcc.edu’
+unable http://utcc.edu red
+http://vcsu.edu green
+http://willistonstate.edu green
+http://bellevue.edu green
+2019-05-23 08:47:31 ERROR 403: Forbidden.
+error http://bryanhealth.com red
+X Error of failed request:  BadValue (integer parameter out of range for operation)
+  Major opcode of failed request:  132 (XTEST)
+  Minor opcode of failed request:  2 (X_XTestFakeInput)
+  Value in failed request:  0x0
+  Serial number of failed request:  18
+  Current serial number in output stream:  19
+Unable to establish SSL connection.
+unable http://creighton.edu red
+http://csc.edu green
+http://cune.edu green
+http://josephscollege.edu green
+http://littlepriest.edu green
+http://mpcc.edu green
+http://nebraska.edu green
+http://northeast.edu green
+http://ucollege.edu green
+http://unk.edu green
+http://unl.edu green
+http://unmc.edu green
+http://unomaha.edu green
+http://wsc.edu green
+http://anselm.edu green
+http://antiochne.edu green
+http://ccsnh.edu green
+http://colby-sawyer.edu green
+http://dartmouth.edu green
+http://exeter.edu green
+http://granite.edu green
+http://keene.edu green
+2019-05-23 08:48:44 ERROR 403: Forbidden.
+error http://mccnh.edu red
+X Error of failed request:  BadValue (integer parameter out of range for operation)
+  Major opcode of failed request:  132 (XTEST)
+  Minor opcode of failed request:  2 (X_XTestFakeInput)
+  Value in failed request:  0x0
+  Serial number of failed request:  18
+  Current serial number in output stream:  19
+wget: unable to resolve host address ‘mountwashington.edu’
+unable http://mountwashington.edu red
+http://nashuacc.edu green
+2019-05-23 08:48:53 ERROR 403: Forbidden.
+error http://nec.edu red
+X Error of failed request:  BadValue (integer parameter out of range for operation)
+  Major opcode of failed request:  132 (XTEST)
+  Minor opcode of failed request:  2 (X_XTestFakeInput)
+  Value in failed request:  0x0
+  Serial number of failed request:  18
+  Current serial number in output stream:  19
+http://nhti.edu green
+http://plymouth.edu green
+http://rivier.edu green
+http://snhu.edu green
+http://unh.edu green
+http://wmcc.edu green
+http://atlantic.edu green
+wget: unable to resolve host address ‘bcc.edu’
+unable http://bcc.edu red
+http://bergen.edu green
+http://brookdalecc.edu green
+wget: unable to resolve host address ‘centenarycollege.edu’
+unable http://centenarycollege.edu red
+http://drew.edu green
+http://eastwickcollege.edu green
+http://fdu.edu green
+http://felician.edu green
+http://fortis.edu green
+http://georgian.edu green
+http://kean.edu green
+http://mccc.edu green
+http://middlesexcc.edu green
+http://monmouth.edu green
+http://montclair.edu green
+http://njcu.edu green
+http://njit.edu green
+http://ocean.edu green
+http://princeton.edu green
+http://ptsem.edu green
+http://ramapo.edu green
+http://raritanval.edu green
+http://rider.edu green
+http://rowan.edu green
+http://rutgers.edu green
+2019-05-23 08:50:20 ERROR 403: Forbidden.
+error http://shu.edu red
+X Error of failed request:  BadValue (integer parameter out of range for operation)
+  Major opcode of failed request:  132 (XTEST)
+  Minor opcode of failed request:  2 (X_XTestFakeInput)
+  Value in failed request:  0x0
+  Serial number of failed request:  18
+  Current serial number in output stream:  19
+http://stenotech.edu green
+http://stevens.edu green
+http://stockton.edu green
+http://sussex.edu green
+http://tcnj.edu green
+HTTP request sent, awaiting response... Read error (Connection timed out) in headers.
+HTTP request sent, awaiting response... Read error (Connection timed out) in headers.
+HTTP request sent, awaiting response... Read error (Connection timed out) in headers.
+HTTP request sent, awaiting response... Read error (Connection timed out) in headers.
+HTTP request sent, awaiting response... Read error (Connection timed out) in headers.
+error http://tesc.edu red
+X Error of failed request:  BadValue (integer parameter out of range for operation)
+  Major opcode of failed request:  132 (XTEST)
+  Minor opcode of failed request:  2 (X_XTestFakeInput)
+  Value in failed request:  0x0
+  Serial number of failed request:  18
+  Current serial number in output stream:  19
+http://wpunj.edu green
+http://ccm.edu green
+http://camdencc.edu green
+http://pccc.edu green
+http://rossu.edu green
+http://cnm.edu green
+http://enmu.edu green
+http://nmhu.edu green
+http://nmsu.edu green
+2019-05-23 08:52:10 ERROR 403: Forbidden.
+error http://nmsua.edu red
+X Error of failed request:  BadValue (integer parameter out of range for operation)
+  Major opcode of failed request:  132 (XTEST)
+  Minor opcode of failed request:  2 (X_XTestFakeInput)
+  Value in failed request:  0x0
+  Serial number of failed request:  18
+  Current serial number in output stream:  19
+http://nmt.edu green
+http://nnmc.edu green
+http://sanjuancollege.edu green
+2019-05-23 08:52:22 ERROR 403: Forbidden.
+error http://swc.edu red
+X Error of failed request:  BadValue (integer parameter out of range for operation)
+  Major opcode of failed request:  132 (XTEST)
+  Minor opcode of failed request:  2 (X_XTestFakeInput)
+  Value in failed request:  0x0
+  Serial number of failed request:  18
+  Current serial number in output stream:  19
+http://unm.edu green
+http://usw.edu green
+http://csn.edu green
+http://gbcnv.edu green
+http://pmi.edu green
+http://sierranevada.edu green
+http://tmcc.edu green
+http://unlv.edu green
+http://unr.edu green
+http://wnc.edu green
+http://adelphi.edu green
+http://albany.edu green
+http://alfred.edu green
+http://amda.edu green
+http://asa.edu green
+http://bard.edu green
+http://barnard.edu green
+http://binghamton.edu green
+http://brockport.edu green
+http://buffalo.edu green
+http://buffalostate.edu green
+ERROR: no certificate subject alternative name matches
+To connect to cazenovia.edu insecurely, use `--no-check-certificate'.
+error certicicate http://cazenovia.edu yellow
+http://clarkson.edu green
+http://clinton.edu green
+http://cnr.edu green
+http://cobleskill.edu green
+http://colgate.edu green
+http://columbia.edu green
+http://concordia-ny.edu green
+http://cooper.edu green
+http://cornell.edu green
+http://cortland.edu green
+http://cuny.edu green
+http://cw.edu green
+http://daemen.edu green
+http://dc.edu green
+http://delhi.edu green
+http://dowling.edu green
+http://dyc.edu green
+wget: unable to resolve host address ‘ecc.edu.ecc.edu’
+unable http://ecc.edu red
+http://elim.edu green
+http://elmira.edu green
+http://esc.edu green
+http://esf.edu green
+http://farmingdale.edu green
+http://fitnyc.edu green
+http://flcc.edu green
+http://fordham.edu green
+http://fredonia.edu green
+http://ftc.edu green
+http://geneseo.edu green
+http://globe.edu green
+http://gts.edu green
+http://hamilton.edu green
+http://hartwick.edu green
+http://herkimer.edu green
+http://hofstra.edu green
+http://hvcc.edu green
+http://hws.edu green
+http://idc.edu green
+http://iona.edu green
+http://ithaca.edu green
+http://jtsa.edu green
+http://juilliard.edu green
+http://keuka.edu green
+http://lehman.edu green
+http://lemoyne.edu green
+  Unable to locally verify the issuer's authority.
+unable http://limcollege.edu red
+http://liu.edu green
+http://manhattan.edu green
+http://marist.edu green
+http://mcny.edu green
+http://mercy.edu green
+http://mmm.edu green
+wget: unable to resolve host address ‘monroecc.edu’
+unable http://monroecc.edu red
+http://morrisville.edu green
+http://msmc.edu green
+http://mssm.edu green
+http://mville.edu green
+http://naz.edu green
+http://ncc.edu green
+http://newpaltz.edu green
+http://newschool.edu green
+http://niagara.edu green
+http://nyack.edu green
+http://nycollege.edu green
+http://nyfa.edu green
+http://nyit.edu green
+http://nyu.edu green
+http://oneonta.edu green
+http://oswego.edu green
+http://pace.edu green
+http://paulsmiths.edu green
+http://plattsburgh.edu green
+http://potsdam.edu green
+http://pratt.edu green
+http://purchase.edu green
+HTTP request sent, awaiting response... Read error (Connection timed out) in headers.
+HTTP request sent, awaiting response... Read error (Connection timed out) in headers.
+HTTP request sent, awaiting response... Read error (Connection timed out) in headers.
+HTTP request sent, awaiting response... Read error (Connection timed out) in headers.
+HTTP request sent, awaiting response... Read error (Connection timed out) in headers.
+error http://rit.edu red
+X Error of failed request:  BadValue (integer parameter out of range for operation)
+  Major opcode of failed request:  132 (XTEST)
+  Minor opcode of failed request:  2 (X_XTestFakeInput)
+  Value in failed request:  0x0
+  Serial number of failed request:  18
+  Current serial number in output stream:  19
+http://roberts.edu green
+http://rochester.edu green
+http://rpi.edu green
+http://sage.edu green
+http://sbu.edu green
+wget: unable to resolve host address ‘sft.edu’
+unable http://sft.edu red
+http://siena.edu green
+http://sjfc.edu green
+http://skidmore.edu green
+http://slc.edu green
+http://stbernards.edu green
+wget: unable to resolve host address ‘stjohns.edu’
+unable http://stjohns.edu red
+http://stlawu.edu green
+http://stonybrook.edu green
+http://stonybrookmedicine.edu green
+http://strose.edu green
+2019-05-23 09:00:24 ERROR 403: Forbidden.
+error http://suny.edu red
+X Error of failed request:  BadValue (integer parameter out of range for operation)
+  Major opcode of failed request:  132 (XTEST)
+  Minor opcode of failed request:  2 (X_XTestFakeInput)
+  Value in failed request:  0x0
+  Serial number of failed request:  18
+  Current serial number in output stream:  19
+http://sunyacc.edu green
+http://sunyit.edu green
+http://sunyjcc.edu green
+http://sunyorange.edu green
+http://sunyrockland.edu green
+http://sunysuffolk.edu green
+http://sunywcc.edu green
+http://syr.edu green
+http://tc3.edu green
+http://touro.edu green
+http://tourolaw.edu green
+http://union.edu green
+http://upstate.edu green
+http://usma.edu green
+http://utica.edu green
+http://vassar.edu green
+http://wagner.edu green
+http://wells.edu green
+http://yu.edu green
+http://canton.edu green
+http://excelsior.edu green
+http://ciachef.edu green
+http://ashland.edu green
+http://aultmancollege.edu green
+http://belmontcollege.edu green
+http://bgsu.edu green
+http://bw.edu green
+http://capital.edu green
+http://case.edu green
+http://ccms.edu green
+http://cedarville.edu green
+http://centralstate.edu green
+http://cincinnatistate.edu green
+http://cotc.edu green
+http://cscc.edu green
+http://csuohio.edu green
+http://cwru.edu green
+http://defiance.edu green
+http://denison.edu green
+2019-05-23 09:04:55 ERROR 404: Not Found.
+error http://findlay.edu red
+X Error of failed request:  BadValue (integer parameter out of range for operation)
+  Major opcode of failed request:  132 (XTEST)
+  Minor opcode of failed request:  2 (X_XTestFakeInput)
+  Value in failed request:  0x0
+  Serial number of failed request:  18
+  Current serial number in output stream:  19
+http://franklin.edu green
+http://heidelberg.edu green
+http://hiram.edu green
+http://hocking.edu green
+http://jcu.edu green
+http://kc.edu green
+wget: unable to resolve host address ‘kent.edu’
+unable http://kent.edu red
+http://kenyon.edu green
+http://lakelandcc.edu green
+http://lcchs.edu green
+http://lorainccc.edu green
+http://malone.edu green
+http://marietta.edu green
+http://miamioh.edu green
+http://mountunion.edu green
+http://msj.edu green
+http://muskingum.edu green
+http://mvnu.edu green
+http://ncstatecollege.edu green
+http://oberlin.edu green
+http://ohio.edu green
+http://ohiodominican.edu green
+http://osu.edu green
+http://onu.edu green
+http://otterbein.edu green
+http://owens.edu green
+http://owu.edu green
+http://rio.edu green
+http://shawnee.edu green
+http://sinclair.edu green
+http://tiffin.edu green
+http://tri-c.edu green
+http://uakron.edu green
+http://uc.edu green
+http://ucblueash.edu green
+http://ucclermont.edu green
+http://udayton.edu green
+http://urbana.edu green
+http://ursuline.edu green
+http://utoledo.edu green
+http://walsh.edu green
+http://wilmington.edu green
+http://wittenberg.edu green
+http://wooster.edu green
+http://wright.edu green
+http://xavier.edu green
+http://ysu.edu green
+http://osu.edu green
+http://cameron.edu green
+http://connorsstate.edu green
+http://ecok.edu green
+http://langston.edu green
+http://macu.edu green
+http://meridiantech.edu green
+http://nsuok.edu green
+http://nwosu.edu green
+http://oc.edu green
+http://occc.edu green
+http://okcu.edu green
+http://okstate.edu green
+http://oru.edu green
+http://osuit.edu green
+http://osuokc.edu green
+http://ou.edu green
+http://ouhsc.edu green
+http://rose.edu green
+http://rsu.edu green
+http://se.edu green
+http://swcu.edu green
+http://swosu.edu green
+http://tulsacc.edu green
+http://uco.edu green
+http://usao.edu green
+http://utulsa.edu green
+http://wosc.edu green
+http://bluecc.edu green
+http://clatsopcc.edu green
+http://cocc.edu green
+http://cs.edu green
+http://cu-portland.edu green
+http://eou.edu green
+http://georgefox.edu green
+http://lanecc.edu green
+http://lclark.edu green
+http://linfield.edu green
+http://linnbenton.edu green
+http://marylhurst.edu green
+wget: unable to resolve host address ‘ncnm.edu’
+unable http://ncnm.edu red
+http://ohsu.edu green
+http://oregonstate.edu green
+http://pacificu.edu green
+http://pcc.edu green
+http://pdx.edu green
+http://reed.edu green
+http://roguecc.edu green
+http://socc.edu green
+http://sou.edu green
+http://uoregon.edu green
+http://up.edu green
+http://warnerpacific.edu green
+http://willamette.edu green
+http://wou.edu green
+http://allegheny.edu green
+http://alvernia.edu green
+http://arcadia.edu green
+wget: unable to resolve host address ‘bbc.edu’
+unable http://bbc.edu red
+http://bc3.edu green
+http://bloomu.edu green
+http://brynmawr.edu green
+http://bucknell.edu green
+http://bucks.edu green
+http://calu.edu green
+  Unable to locally verify the issuer's authority.
+unable http://carlow.edu red
+http://ccac.edu green
+http://ccp.edu green
+http://cedarcrest.edu green
+http://chatham.edu green
+http://chc.edu green
+http://clarion.edu green
+http://cmu.edu green
+http://dccc.edu green
+http://delval.edu green
+http://dickinson.edu green
+http://drexel.edu green
+http://drexelmed.edu green
+http://duq.edu green
+http://eastern.edu green
+http://edinboro.edu green
+http://etown.edu green
+http://evangelical.edu green
+http://fandm.edu green
+http://francis.edu green
+http://gcc.edu green
+http://geneva.edu green
+http://gettysburg.edu green
+2019-05-23 09:15:49 ERROR 403: Forbidden.
+error http://hacc.edu red
+X Error of failed request:  BadValue (integer parameter out of range for operation)
+  Major opcode of failed request:  132 (XTEST)
+  Minor opcode of failed request:  2 (X_XTestFakeInput)
+  Value in failed request:  0x0
+  Serial number of failed request:  18
+  Current serial number in output stream:  19
+http://haverford.edu green
+http://holyfamily.edu green
+http://iup.edu green
+http://jefferson.edu green
+http://juniata.edu green
+http://keystone.edu green
+http://kings.edu green
+http://kutztown.edu green
+http://lackawanna.edu green
+http://lafayette.edu green
+http://lancasterctc.edu green
+http://lancasterseminary.edu green
+http://laroche.edu green
+http://lasalle.edu green
+http://lccc.edu green
+http://lecom.edu green
+http://lehigh.edu green
+http://lhup.edu green
+2019-05-23 09:16:43 ERROR 403: Forbidden.
+error http://lincoln.edu red
+X Error of failed request:  BadValue (integer parameter out of range for operation)
+  Major opcode of failed request:  132 (XTEST)
+  Minor opcode of failed request:  2 (X_XTestFakeInput)
+  Value in failed request:  0x0
+  Serial number of failed request:  18
+  Current serial number in output stream:  19
+http://lsb.edu green
+http://lvc.edu green
+http://lycoming.edu green
+http://manor.edu green
+2019-05-23 09:17:00 ERROR 403: Forbidden.
+error http://mansfield.edu red
+X Error of failed request:  BadValue (integer parameter out of range for operation)
+  Major opcode of failed request:  132 (XTEST)
+  Minor opcode of failed request:  2 (X_XTestFakeInput)
+  Value in failed request:  0x0
+  Serial number of failed request:  18
+  Current serial number in output stream:  19
+http://marywood.edu green
+http://mc3.edu green
+http://mercyhurst.edu green
+http://messiah.edu green
+http://millersville.edu green
+http://misericordia.edu green
+http://moravian.edu green
+http://mtaloy.edu green
+http://muhlenberg.edu green
+http://neumann.edu green
+http://northampton.edu green
+http://pagunsmith.edu green
+http://pcom.edu green
+http://pct.edu green
+http://philau.edu green
+http://pitt.edu green
+http://psu.edu green
+http://racc.edu green
+http://rmu.edu green
+http://saintvincentseminary.edu green
+http://salus.edu green
+http://scranton.edu green
+http://ship.edu green
+http://sju.edu green
+http://sru.edu green
+http://stvincent.edu green
+http://susqu.edu green
+wget: unable to resolve host address ‘swarthmor.edu’
+unable http://swarthmor.edu red
+http://temple.edu green
+http://theamericancollege.edu green
+http://thiel.edu green
+http://uarts.edu green
+http://upenn.edu green
+http://usciences.edu green
+wget: unable to resolve host address ‘vfcc.edu’
+unable http://vfcc.edu red
+http://villanova.edu green
+Unable to establish SSL connection.
+unable http://washjeff.edu red
+wget: unable to resolve host address ‘wccc.edu’
+unable http://wccc.edu red
+http://wcupa.edu green
+http://westminster.edu green
+http://widener.edu green
+http://wilkes.edu green
+http://wilson.edu green
+2019-05-23 09:19:08 ERROR 503: Service Unavailable: Back-end server is at capacity.
+error http://ycp.edu red
+X Error of failed request:  BadValue (integer parameter out of range for operation)
+  Major opcode of failed request:  132 (XTEST)
+  Minor opcode of failed request:  2 (X_XTestFakeInput)
+  Value in failed request:  0x0
+  Serial number of failed request:  18
+  Current serial number in output stream:  19
+http://pafa.edu green
+http://esu.edu green
+http://ursinus.edu green
+http://desales.edu green
+http://lbc.edu green
+http://cheyney.edu green
+http://brown.edu green
+http://bryant.edu green
+http://ccri.edu green
+http://jwu.edu green
+http://neit.edu green
+http://providence.edu green
+http://uri.edu green
+http://ric.edu green
+http://risd.edu green
+http://rwu.edu green
+http://uri.edu green
+http://centura.edu green
+http://citadel.edu green
+http://ciu.edu green
+http://clemson.edu green
+http://coastal.edu green
+http://cofc.edu green
+http://coker.edu green
+http://columbiasc.edu green
+http://fdtc.edu green
+http://fmarion.edu green
+http://forrestcollege.edu green
+http://furman.edu green
+http://lander.edu green
+http://limestone.edu green
+http://midlandstech.edu green
+http://musc.edu green
+http://newberry.edu green
+http://ngu.edu green
+http://octech.edu green
+http://presby.edu green
+http://sc.edu green
+http://scsu.edu green
+http://sintegleska.edu green
+http://smcsc.edu green
+  Unable to locally verify the issuer's authority.
+unable http://tctc.edu red
+http://usca.edu green
+http://uscb.edu green
+http://uscupstate.edu green
+http://winthrop.edu green
+http://wofford.edu green
+http://yorktech.edu green
+http://bju.edu green
+http://andersonuniversity.edu green
+http://bhsu.edu green
+http://dsu.edu green
+http://dwu.edu green
+http://mtmc.edu green
+http://northern.edu green
+http://sdsmt.edu green
+http://sdstate.edu green
+http://usd.edu green
+wget: unable to resolve host address ‘usioxfalls.edu’
+unable http://usioxfalls.edu red
+http://wdt.edu green
+http://apsu.edu green
+http://belmont.edu green
+http://bryan.edu green
+http://cbu.edu green
+http://cn.edu green
+http://columbiastate.edu green
+http://cumberland.edu green
+http://devry.edu green
+http://etsu.edu green
+http://fhu.edu green
+http://fisk.edu green
+http://hchs.edu green
+http://hiwassee.edu green
+http://johnsonu.edu green
+http://jscc.edu green
+http://leeuniversity.edu green
+http://lmunet.edu green
+http://loc.edu green
+http://memphis.edu green
+http://milligan.edu green
+http://mtsu.edu green
+http://nscc.edu green
+http://pstcc.edu green
+http://rhodes.edu green
+http://roanestate.edu green
+http://sco.edu green
+http://sewanee.edu green
+http://southern.edu green
+http://tennessee.edu green
+wget: unable to resolve host address ‘tn.edu’
+unable http://tn.edu red
+wget: unable to resolve host address ‘tnstate.edu’
+unable http://tnstate.edu red
+http://tntech.edu green
+http://twcnet.edu green
+http://utc.edu green
+http://uthsc.edu green
+http://utk.edu green
+http://utm.edu green
+  Unable to locally verify the issuer's authority.
+unable http://utsi.edu red
+http://uu.edu green
+http://vanderbilt.edu green
+http://volstate.edu green
+http://king.edu green
+http://acu.edu green
+http://alamo.edu green
+http://alvincollege.edu green
+http://angelo.edu green
+http://austincc.edu green
+http://austincollege.edu green
+http://austingrad.edu green
+http://baylor.edu green
+http://blinn.edu green
+http://brazosport.edu green
+http://brookhavencollege.edu green
+  Unable to locally verify the issuer's authority.
+unable http://bshp.edu red
+wget: unable to resolve host address ‘careerpointcollege.edu’
+unable http://careerpointcollege.edu red
+http://cedarvalleycollege.edu green
+http://coastalbend.edu green
+http://com.edu green
+http://concordia.edu green
+http://ctcd.edu green
+http://culinaryinstitute.edu green
+http://dbu.edu green
+http://delmar.edu green
+http://dni.edu green
+http://epcc.edu green
+http://etbu.edu green
+http://galencollege.edu green
+http://gc.edu green
+http://grayson.edu green
+http://hbu.edu green
+http://hccs.edu green
+http://hillcollege.edu green
+http://howardcollege.edu green
+http://hputx.edu green
+http://lamar.edu green
+http://lamarpa.edu green
+http://lcu.edu green
+http://letu.edu green
+http://lit.edu green
+http://lonestar.edu green
+http://lsco.edu green
+http://mclennan.edu green
+http://mcm.edu green
+http://midland.edu green
+http://mwsu.edu green
+http://national.edu green
+http://nctc.edu green
+wget: unable to resolve host address ‘northamerican.edu’
+unable http://northamerican.edu red
+http://northlakecollege.edu green
+http://odessa.edu green
+http://ogleschool.edu green
+http://ollusa.edu green
+http://panola.edu green
+http://phssn.edu green
+http://pvamu.edu green
+http://rice.edu green
+http://richlandcollege.edu green
+http://sanjac.edu green
+http://schreiner.edu green
+http://sfasu.edu green
+http://shsu.edu green
+http://smu.edu green
+http://southplainscollege.edu green
+wget: unable to resolve host address ‘southtexascollege.htp’
+unable http://southtexascollege.htp red
+http://southwestern.edu green
+http://ssw.edu green
+http://stcl.edu green
+http://stedwards.edu green
+http://stmarytx.edu green
+http://stthom.edu green
+http://tamhsc.edu green
+2019-05-23 09:30:10 ERROR 403: Forbidden.
+error http://tamiu.edu red
+X Error of failed request:  BadValue (integer parameter out of range for operation)
+  Major opcode of failed request:  132 (XTEST)
+  Minor opcode of failed request:  2 (X_XTestFakeInput)
+  Value in failed request:  0x0
+  Serial number of failed request:  18
+  Current serial number in output stream:  19
+http://tamu.edu green
+http://tamuc.edu green
+http://tamucc.edu green
+http://tamuk.edu green
+http://tamut.edu green
+http://tarleton.edu green
+http://tcu.edu green
+http://templejc.edu green
+http://tjc.edu green
+http://trinity.edu green
+http://tstc.edu green
+http://tsu.edu green
+http://ttu.edu green
+http://ttuhsc.edu green
+http://twu.edu green
+http://txchiro.edu green
+http://txstate.edu green
+http://udallas.edu green
+http://uh.edu green
+http://uhcl.edu green
+http://uhd.edu green
+http://uiw.edu green
+http://umhb.edu green
+http://unt.edu green
+http://unthsc.edu green
+http://uta.edu green
+ERROR: no certificate subject alternative name matches
+To connect to utb.edu insecurely, use `--no-check-certificate'.
+error certicicate http://utb.edu yellow
+http://utdallas.edu green
+http://utep.edu green
+http://utexas.edu green
+http://uth.edu green
+http://uthscsa.edu green
+wget: unable to resolve host address ‘utmb.edu’
+unable http://utmb.edu red
+ERROR: no certificate subject alternative name matches
+To connect to utpa.edu insecurely, use `--no-check-certificate'.
+error certicicate http://utpa.edu yellow
+http://utpb.edu green
+http://utsa.edu green
+http://utsouthwestern.edu green
+http://online.uttyler.edu/ green
+http://vgi.edu green
+http://victoriacollege.edu green
+http://wbu.edu green
+http://wc.edu green
+http://wtamu.edu green
+http://uvi.edu green
+http://byu.edu green
+http://dixie.edu green
+http://slcc.edu green
+http://snow.edu green
+http://suu.edu green
+http://usu.edu green
+wget: unable to resolve host address ‘utah.edu’
+unable http://utah.edu red
+http://uvu.edu green
+http://weber.edu green
+http://averett.edu green
+http://christendom.edu green
+http://cnu.edu green
+http://dslcc.edu green
+http://emu.edu green
+http://evms.edu green
+http://ferrum.edu green
+http://germanna.edu green
+http://gmu.edu green
+http://hsc.edu green
+wget: unable to resolve host address ‘ipsciences.edu’
+unable http://ipsciences.edu red
+http://jmu.edu green
+http://liberty.edu green
+http://longwood.edu green
+http://marymount.edu green
+http://nr.edu green
+http://nsu.edu green
+http://nvcc.edu green
+http://odu.edu green
+http://radford.edu green
+http://randolphcollege.edu green
+http://rappahannock.edu green
+http://regent.edu green
+http://reynolds.edu green
+http://richmond.edu green
+http://rmc.edu green
+http://roanoke.edu green
+http://sentara.edu green
+http://stratford.edu green
+http://su.edu green
+http://svu.edu green
+http://sw.edu green
+http://tcc.edu green
+http://tncc.edu green
+http://umw.edu green
+http://uvawise.edu green
+http://vccs.edu green
+http://vcu.edu green
+http://vhcc.edu green
+wget: unable to resolve host address ‘vims.edu’
+unable http://vims.edu red
+http://virginia.edu green
+http://virginiawestern.edu green
+http://viu.edu green
+http://vsu.edu green
+http://vt.edu green
+http://vuu.edu green
+wget: unable to resolve host address ‘vwc.edu’
+unable http://vwc.edu red
+http://wlu.edu green
+HTTP request sent, awaiting response... Read error (Connection reset by peer) in headers.
+error http://wm.edu red
+X Error of failed request:  BadValue (integer parameter out of range for operation)
+  Major opcode of failed request:  132 (XTEST)
+  Minor opcode of failed request:  2 (X_XTestFakeInput)
+  Value in failed request:  0x0
+  Serial number of failed request:  18
+  Current serial number in output stream:  19
+http://castleton.edu green
+http://champlain.edu green
+  Unable to locally verify the issuer's authority.
+unable http://greenmtn.edu red
+http://jsc.edu green
+http://middlebury.edu green
+http://neci.edu green
+http://norwich.edu green
+http://sit.edu green
+http://smcvt.edu green
+http://uvm.edu green
+http://uvm.edu green
+http://vermontlaw.edu green
+http://vtc.edu green
+http://bennington.edu green
+http://bellevuecollege.edu green
+http://bigbend.edu green
+wget: unable to resolve host address ‘cascadia.edu’
+unable http://cascadia.edu red
+http://centralia.edu green
+http://chartercollege.edu green
+http://clark.edu green
+http://cwu.edu green
+http://digipen.edu green
+http://edcc.edu green
+http://everettcc.edu green
+http://evergreen.edu green
+http://ewu.edu green
+2019-05-23 09:36:24 ERROR 403: Forbidden.
+error http://faithseminary.edu red
+X Error of failed request:  BadValue (integer parameter out of range for operation)
+  Major opcode of failed request:  132 (XTEST)
+  Minor opcode of failed request:  2 (X_XTestFakeInput)
+  Value in failed request:  0x0
+  Serial number of failed request:  18
+  Current serial number in output stream:  19
+http://gonzaga.edu green
+http://greenriver.edu green
+http://highline.edu green
+http://mfwi.edu green
+http://northseattle.edu green
+http://olympic.edu green
+http://pencol.edu green
+http://perrytech.edu green
+http://plu.edu green
+http://rtc.edu green
+http://seattlecentral.edu green
+http://seattleu.edu green
+http://shoreline.edu green
+http://siom.edu green
+http://skagit.edu green
+http://southseattle.edu green
+http://spokanefalls.edu green
+http://spu.edu green
+http://stmartin.edu green
+http://pugetsound.edu green
+http://uw.edu green
+http://uwb.edu green
+http://wallawalla.edu green
+http://whitman.edu green
+http://whitworth.edu green
+http://wsu.edu green
+http://wvc.edu green
+http://wwcc.edu green
+http://wwu.edu green
+http://yvcc.edu green
+http://washington.edu green
+http://alverno.edu green
+http://carrollu.edu green
+http://carthage.edu green
+http://cvtc.edu green
+http://edgewood.edu green
+http://gtc.edu green
+http://ibw.edu green
+http://lawrence.edu green
+http://madisoncollege.edu green
+http://marquette.edu green
+2019-05-23 09:39:18 ERROR 403: Forbidden.
+error http://matc.edu red
+X Error of failed request:  BadValue (integer parameter out of range for operation)
+  Major opcode of failed request:  132 (XTEST)
+  Minor opcode of failed request:  2 (X_XTestFakeInput)
+  Value in failed request:  0x0
+  Serial number of failed request:  18
+  Current serial number in output stream:  19
+http://mcw.edu green
+http://miad.edu green
+http://morainepark.edu green
+http://msoe.edu green
+http://northland.edu green
+http://ntc.edu green
+http://nwtc.edu green
+http://sl.edu green
+http://snc.edu green
+http://stritch.edu green
+http://uwc.edu green
+http://uwec.edu green
+http://uwex.edu green
+http://uwgb.edu green
+http://uwlax.edu green
+http://uwm.edu green
+http://uwosh.edu green
+http://uwplatt.edu green
+http://uwrf.edu green
+http://uwsp.edu green
+http://uwsuper.edu green
+http://uww.edu green
+wget: unable to resolve host address ‘viterbo.edu’
+unable http://viterbo.edu red
+http://wctc.edu green
+http://wisc.edu green
+http://witc.edu green
+http://wlc.edu green
+http://wtcsystem.edu green
+http://westerntc.edu green
+http://apus.edu green
+http://concord.edu green
+http://easternwv.edu green
+http://fairmontstate.edu green
+http://marshall.edu green
+http://ovu.edu green
+http://pierpont.edu green
+wget: unable to resolve host address ‘shepherd.edu’
+unable http://shepherd.edu red
+http://ucwv.edu green
+http://westliberty.edu green
+http://wju.edu green
+http://wvncc.edu green
+http://wvstateu.edu green
+http://wvu.edu green
+http://wvwc.edu green
+http://caspercollege.edu green
+http://cwc.edu green
+http://nols.edu green
+wget: unable to resolve host address ‘northwestcollege.edu’
+unable http://northwestcollege.edu red
+http://sheridan.edu green
+http://uwyo.edu green
+
