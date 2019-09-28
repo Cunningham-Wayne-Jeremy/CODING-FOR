@@ -46,6 +46,11 @@ do math on strings.
 a line break which may not be the desired result.
 So Remember , end=" " means no line break where + will add a line break
 -----------------------------------------------------------------------------------------------------------------------------------------
+placeholdervar = {}{}{}{}{}{}{}{}
+
+print(f"placeholdervar.")
+
+-----------------------------------------------------------------------------------------------------------------------------------------
 \ is the escape character good for escaping out of quotes and getting around
 special characters
 -----------------------------------------------------------------------------------------------------------------------------------------
@@ -394,7 +399,26 @@ File "ex24.py", line 23
 SyntaxError: invalid syntax
 FORGOT TO ADD A : after the ()'s for the function
 -----------------------------------------------------------------------------------------------------------------------------------------
+=========================================================================================================
+REVIEW
+=========================================================================================================
+After quite some time without using python I decided to review what I have learned so far. Much I have forgotten but only temporarily as
+I have simply archived the knowledge and need to refreshen it and not learn it all anew. However i have decided to run each .py script 
+and also run each section of it to ensure I understand it. 
 
------------------------------------------------------------------------------------------------------------------------------------------
+I picked up some things I must have missed the first time and am noting them here in this review section:
 
------------------------------------------------------------------------------------------------------------------------------------------
+The < and > signs will automatically change the returned value to a boolean on their own which I found interesting and probably must be 
+true in other coding languages as well 
+
+EX:
+print("How intriguing that it makes the returned values a boolean automatically when running a < or > operation like 3+2<5-7. The 
+answer of course is",3+2<5-7,".The less sign must change the statement automatically within phython to a boolean return value") 
+---------------------------------------------------------------------------------------------------------
+
+
+---------------------------------------------------------------------------------------------------------
+
+=========================================================================================================
+END REVIEW
+=========================================================================================================

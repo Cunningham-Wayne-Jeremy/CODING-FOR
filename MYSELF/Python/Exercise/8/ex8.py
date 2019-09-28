@@ -8,6 +8,6 @@ print(formatter.format(
     "More than one characater",
     "Or word can fit here",
     "Is this an array then?",
-    "I am positive it is."
+    "NOPE."
 ))
-#nah this is apparently a function but either way I think both are objects.
+

@@ -2,7 +2,7 @@
 
 #Is this an array then?
 days = "Mon Tue Wed Thu Fri Sat Sun"
-months = "Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug"
+months = "\nJan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug"
 
 print(f"Here are the days: {days}", )
 print("Here are the months: {}".format(months))

@@ -1,4 +1,4 @@
-#Assigns a valueto the variable car
+#Assigns a value to the variable car
 cars = 100
 # Sets the variable for how much space is in a car
 space_in_a_car = 4.0

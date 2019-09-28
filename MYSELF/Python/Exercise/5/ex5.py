@@ -11,7 +11,7 @@ print(f"He's {height} Feet tall.")
 print(f"He's {weight} Kg heavy.")
 print(f"Actually thats not too heavy.")
 print(f"He's got {eyes} eyes and {hair} hair.")
-print(f"His teeth are usuall {teeth} depending on the coffee")
+print(f"His teeth are usually {teeth} depending on the coffee")
 
 #This line is tricky try and get it exactly right
 total = age + height + weight
