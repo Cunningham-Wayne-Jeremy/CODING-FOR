@@ -8,7 +8,7 @@ print("print will echo to the terminal")
 print("""f can be used in every single function out there and can
 be used to format the output by calling variables in {}
 """)
-print("""eval() will evaluate string values. OBVIOUSLY the must be strings and
+print("""eval() will evaluate string values. OBVIOUSLY they must be strings and
 therfore must be in 's or "s
 """)
 print("int() and float() will convert strings into numbers")
@@ -24,7 +24,7 @@ I would do:
 print("HELLO"*10)
 """)
 print("three \" or three ' can make a multiline string")
-print("""\\t can tab something, \\n can break to a new line, \r is a
+print("""\\t can tab something, \\n can break to a new line, \\r is a
 carriage return, There are other \'s for formating different strings
  """)
 print("import is a command that can import various modules from python libraries")
@@ -42,7 +42,7 @@ print("""The are many attributes that can be used on open files.
 and seek(goes to a point in a file measured in bytes)
 """)
 print("<,>,<=,>= are all in python and are obvious as to what they do")
-print("+ will concatenate strings but will have a line break")
+print("+ will concatenate strings but will have a line breaki at the end")
 
 print("Testing something:")
 print("The first one is: {} the second one is: {}".format("first?","second?"))

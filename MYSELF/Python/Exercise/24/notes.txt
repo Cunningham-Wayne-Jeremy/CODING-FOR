@@ -293,8 +293,15 @@ calculator("90","/","2")
 BUT this DOES NOT:
 calculator(100,-,6)
 I do not know why....
+I DO know why its because the function calculator that you made uses eval which takes STRINGS and 
+performs math on those strings. If you rewrote the function do handle ints by converting user input
+to strings like so: 
+number1=int(input("Enter the first integer"))
+Still had to use eval though as operators need a dictionary to get around that
+dictionary is a key and a value pair like an associative array in javascript. 
+SO its a bit advance but not THAT hard, however I will wait till we get there in futher activities.
 -----------------------------------------------------------------------------------------------------------------------------------------
-** is exponents
+** is the operator for exponents
 -----------------------------------------------------------------------------------------------------------------------------------------
 ex19.1.py When using inputs they appear as they are in the code. Some coding
 languages execute those first but not python which is cool.
@@ -427,10 +434,30 @@ EX:
 print("How intriguing that it makes the returned values a boolean automatically when running a < or > operation like 3+2<5-7. The 
 answer of course is",3+2<5-7,".The less sign must change the statement automatically within phython to a boolean return value") 
 ---------------------------------------------------------------------------------------------------------
-
+REMEMBER: when calling functions with arguments you can perform math and even call variables for the
+arguments
 
 ---------------------------------------------------------------------------------------------------------
+REMEMBER: Arguments are place holders nothing more.
+The function below has 2 arguments but when you call the function the names of the supplied arguments canbe direct input or variables with different or the same name as the argument itself. For example:
+
+def areaofsq(variable1,variable2):
+    print(f"The area of the square is equal to: ", variable1*variable2)
+
+height=10
+width=10
+areaofsq(height,width)
+
+areaofsq(10,10)
+
+areaofsq(height-2,width-1)
+
+
+The above code all works!
 
 =========================================================================================================
 END REVIEW
 =========================================================================================================
+
+---------------------------------------------------------------------------------------------------------
+

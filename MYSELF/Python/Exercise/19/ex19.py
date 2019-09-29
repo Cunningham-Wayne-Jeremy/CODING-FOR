@@ -1,5 +1,5 @@
 # There is a lot of versatility here and its pretty impressive, what is most
-# confusing thoughis that the variables defined in the function do not have to
+# confusing though is that the variables defined in the function do not have to
 # be named the same when referencing he said function. This is a very strange
 # concept but its true for other coding languages as well.
 
