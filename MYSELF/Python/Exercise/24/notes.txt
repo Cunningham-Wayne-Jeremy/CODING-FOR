@@ -458,6 +458,36 @@ The above code all works!
 =========================================================================================================
 END REVIEW
 =========================================================================================================
+THINKOUTSIDETHEBOX
 
----------------------------------------------------------------------------------------------------------
+In the below snippet of code which is found in excercise 24 you see that
+ you can declare multiple variables at once using a function on the other
+ end like so
+ beans, jars, crates = secret_formula(start_point) # declares 3 variables
+ and assigns them the function result
+-----------------------------------------------------------------------------------------------------
+Also in ex24.py is the ability to assign multiple brackets values by 
+assigning the return of the secret_formula function to a variable and then
+leaving blank brackets in a print statement and filling them in with .format 
+the use of an * to assign multiple values is quite clever
+formula = secret_formula(start_point)
+print("We'd have {} beans, {} jars, and {} crates.".format(*formula))
+-----------------------------------------------------------------------------------------------------
+ERROR: EX25.py 
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "/home/foss-ter/MYSELF/Python/Exercise/25/ex25.py", line 4, in break_words
+    words=stuff.split('')
+ValueError: empty separator
+
+CAUSE: Forgot to add a delimiter
+RESOLUTION: When using .split('') dont leave it empty put a delimiter in there like so:
+.split(' ')
+-----------------------------------------------------------------------------------------------------
+ didnt know that you can import .py files when doing so first open the python cli by typing 
+python3.6 and pressing enter
+Then use import filename WITHOUT the .py to import variables, functions and whatever else ya 
+have in that file. 
+-----------------------------------------------------------------------------------------------------
+
 
