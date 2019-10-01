@@ -536,6 +536,10 @@ sh*t you dont even need to be able to code to understand these concepts but havi
 background with java this was a VERY painful excercise but being the completionist that I am I sort
 of completed 28 but I did skip 27 as its a waste of time and energy.... moving on!
 -----------------------------------------------------------------------------------------------------
-
-
+SO just like functions, if statements in python are have colon and all things within the if statment
+(except the declaraiton) is indented and the indention determines what is in the then statement.
+if 1 != 0: #This is the declaration
+	print("I tabbed here!")
+var=print("if statement is over")
+-----------------------------------------------------------------------------------------------------
 
