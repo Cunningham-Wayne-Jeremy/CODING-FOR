@@ -20,13 +20,13 @@ COMMAND="$1"
 [ -z "$COMMAND" ] && { echo "NO COMMAND PASSED"; exit 1; }
 
 case "$COMMAND" in
-	shutdown)
-		funcDisplayInfoBox "WARNING!" "We are SHUTTING DOWN the System..." "11" "21" "5"
-		echo "Shutting Down!"
+	ilovesophie)
+		funcDisplayInfoBox "WARNING!" "Dadda loves Sophie too much..." "11" "21" "5"
+		echo "Spanking her tush"
 		;;
-	restart)
-		funcDisplayInfoBox "WARNING!" "We are RESTARTING the System..." "11" "21" "5" 
-		echo "Restarting System!"
+	ilovemomma)
+		funcDisplayInfoBox "WARNING!" "Dadda loves Momma too much..." "11" "21" "5" 
+		echo "Spanking mommas tush"
 		;;
 	*)
 		funcDisplayInfoBox "Information" "You are not doing anything fun!" "11" "21" "5"

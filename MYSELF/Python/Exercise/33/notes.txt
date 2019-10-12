@@ -570,14 +570,76 @@ its own.
 I did EX32 as my loop game could use some work
 LOOPS and a bit of arrays
 
+DECLARING A LIST IN PYTHON
 varname = [1,2,3,4,5,6,7] 
-# thats all there is to an array really add some qoutes if you want strings
+# thats all there is to lists really add some qoutes if you want strings
 ----------------------------------------------------------------------------------------------------
+I was wrong about lists they are actually called lists and there are arrays as well. So what is the 
+difference between them? 
+----------------------------------------------------------------------------------------------------
+DECLARING A FOR LOOP
+for i in something:
+    print("print or do something here")
+The i can be replaced with anything you wish 
+----------------------------------------------------------------------------------------------------
+The while loop continues the block of code over and over again until the statment is false
+BY THE WAY the BLOCK of code I mentioned begins with the : and ends once you STOP tabing 
+Like so
+while i<10:
+    print("this is the block!")
+print("The block is now over with this statment.")
 
+As the while loops checks for a condition its like an if statement! and this is true for all coding
+languages and not just with python so keep that in mind. 
 
+Same with the for loop it continues until it reaches the end of its iteration and that is true in 
+other coding languages as well.
+----------------------------------------------------------------------------------------------------
+DECLARE A WHILE LOOP
+i=0
+numbers = []
+while i < 6:
+    print(f"At the top i is {i}")
+    numbers.append(i)
+	i = i + 1
+----------------------------------------------------------------------------------------------------
+Excercise 33 hints at the stack without mentioning it by word. The stack of numbers and the top is 
+the current iteration of the while loop. The stack in coding is the most recent code where the oldest
+ code is at the bottom and the newer code lies at the top its a concept that I need to understand
+more fully in the future.
+----------------------------------------------------------------------------------------------------
+Also in ex33 you will change the code to a for loop (functionwhileloop.py)
+What I learned when doing this with a range for loop is that the incremental user input doesnt matter
+The array will include a solid list from the start number zero till you reach the number given by 
+the user to stop at minus 1. That being said, on the very first iteration i does increase by the 
+increment value but it then stops. I am still analyzing why....
 
+Here is the code for ease of access:
 
+def userinputwhileloop():
 
+    i=1
+    loopuntil= int(input("Enter an integer at which the loop will stop: "))
+    numbers = []
+    increment_value = int(input("Enter a value the code increments by:"))
+    for i in range(0,loopuntil):
+        print(f"At the top i is equal to {i}")
+        numbers.append(i)
+        i += increment_value
+        print(f"What is the value of i? {i}")
+        print("Numbers now: ", numbers)
+        print("At the bottom i is {}".format(i))
+      print("The numbers: ")
+  
+    for num in numbers:
+      print(num)
+userinputwhileloop()
+----------------------------------------------------------------------------------------------------
+So I modified the code and moved the incrementvalue BEFORE the numbers.append(i) and now the start 
+of i is different and its actually stored in the numbers list but it still wont increment by 5,
+ all it did was add 1 to the value after the first iteration. Still odd but I am going to continue
+with the excercises so I can move on.
+----------------------------------------------------------------------------------------------------
 
 
 

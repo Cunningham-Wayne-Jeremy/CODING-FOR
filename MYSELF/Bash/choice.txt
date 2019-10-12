@@ -1,1 +1,1 @@
-1
+./infobox2.sh: line 15: dialog: command not found
