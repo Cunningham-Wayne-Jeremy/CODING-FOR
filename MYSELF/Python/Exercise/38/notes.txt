@@ -696,4 +696,32 @@ best to just remember it and assume that’s the result. What happens, at the en
 a function call that looks like: append(mystuff, 'hello') instead of what you read, which is
 mystuff.append('hello') .
 ----------------------------------------------------------------------------------------------------
+REMEMBER: WHEN DO I USE A LIST?
+1. If you need to maintain order. Remember, this is listed order, not sorted order. Lists do not sort
+for you.
+2. If you need to access the contents randomly by a number. Remember, this is using cardinal num-
+bers starting at 0.
+3. If you need to go through the contents linearly (first to last). Remember, that’s what for-loops
+are for.
+----------------------------------------------------------------------------------------------------
+REMEMBER!
+When using negative numbers on the index for a list that will reverse the order that the list is 
+referenced. For example:
+mylist = ["first", "second", "Third" , "fourth"]
+print(mylist[-1], "This will return fourth or the VERY LAST item in a list!")
+Think of the list as having a zero at the end that is not INSIDE the list as -0 is just 0 or he first
+character of the list.
+----------------------------------------------------------------------------------------------------
+Join will join the list items together in a single. You can specify a delimiter that will insert 
+itself between each column, like so: 
+
+mylist = ["first", "second", "Third" , "fourth"]
+
+print("|".join(mylist))
+
+This would pring first|second|Third|fourth
+----------------------------------------------------------------------------------------------------
+
+
+
 
