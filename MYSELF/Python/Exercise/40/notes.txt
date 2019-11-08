@@ -745,4 +745,56 @@ order while dictionaries use {}'s or braces.
 Dictionaries are like lists in that they are a DATA STRUCTURE! 
 PYDOC DICT to find more info!
 ----------------------------------------------------------------------------------------------------
- 
+Objects are a way to store functions, for loops and really any other code that you want into a block
+There are different types of obhjects but for lesson 40 we the object we want is a class. 
+When you write code for an object and then call it you are actually creating that object for the 
+first time. If you call it again it creates another object that is completely different that the
+previous one. They are separate objects at that point. Its strange but I didnt know this.
+----------------------------------------------------------------------------------------------------
+Creating an object its called instatiate which is the equivalent in python. When you create an object
+in most coding languages you have to create it calling that class you made. To do so you MUST assign 
+it to a variable. The name of that var doesnt matter. For example: var = MyObject() When calling a 
+function from the object you created you will need to do 
+varthatwasassignedtotheobj.functioname(parametersifany). 
+----------------------------------------------------------------------------------------------------
+We are gonna drill a little deeper into what happens when instantiate a new object:
+1. Python looks for MyStuff() and sees that it is a class you’ve defined in your import above
+2. Python crafts an empty object with all the functions you’ve specified in the class using def.
+3. Python then looks to see if you made a ”magic” __init__ function, and if you have it calls that 
+   function to initialize your newly created empty object. UGHH I hate when they dont know so they 
+   just call it magic or they are too lazy to explain it to me, freakin annoying. It looks like that
+   __init__ is a keyword for python and initializing objects. You can pydoc __init__
+4. In the MyStuff function __init__ I then get this extra variable self , which is an empty object 
+   Python made for me, and I can set variables on it just like you would with a module, dictionary,
+   or other object.
+5. In this case, I set self.tangerine to a song lyric and then I’ve initialized this object.
+6. Now Python can take this newly minted object and assign it to the thing variable for me to work
+   with.
+7. Classes are like blueprints or definitions for creating new mini-modules. 
+8. Instantiation is how you make one of these mini-modules and import it at the same time.
+   ”In- stantiate” just means to create an object from the class. 
+9. The resulting created mini-module is called an object, and you then assign it to a variable to 
+   work with it.
+----------------------------------------------------------------------------------------------------
+Excercise 40 reminds me of when I was doing plsql when we did the goblin,orc and elf object things
+In fact its very similar as we had a base object and from that base object we created nested objects 
+from that object. So while there were 7 types of elves, they were all elves. The base elves all
+had a name and a race. SO the base would have what they have in common and the children of that base
+just inheritted the object values of that base. 
+----------------------------------------------------------------------------------------------------
+So I think the __init__ function specifys what parameters that Song should have when its called. 
+----------------------------------------------------------------------------------------------------
+OBJECT VOCAB and DEFINITIONS
+class Tell Python to make a new type of thing.
+object Two meanings: the most basic type of thing, and any instance of some thing.
+instance What you get when you tell Python to create a class.
+def How you define a function inside a class.
+self Inside the functions in a class, self is a variable for the instance/object being accessed.
+inheritance The concept that one class can inherit traits from another class, much like you and your parents.
+composition The concept that a class can be composed of other classes as parts, much like how a car has wheels.
+attribute A property classes have that are from composition and are usually variables.
+is-a A phrase to say that something inherits from another, as in a ”salmon” is-a ”fish.”
+has-a A phrase to say that something is composed of other things or has a trait, as in ”a salmon has-a mouth.”
+----------------------------------------------------------------------------------------------------
+
+
