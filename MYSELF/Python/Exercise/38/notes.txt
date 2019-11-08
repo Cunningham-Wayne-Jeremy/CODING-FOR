@@ -712,8 +712,8 @@ print(mylist[-1], "This will return fourth or the VERY LAST item in a list!")
 Think of the list as having a zero at the end that is not INSIDE the list as -0 is just 0 or he first
 character of the list.
 ----------------------------------------------------------------------------------------------------
-Join will join the list items together in a single. You can specify a delimiter that will insert 
-itself between each column, like so: 
+Join will join the list items together in a single string. You can specify a delimiter that will 
+insert itself between each column, like so: 
 
 mylist = ["first", "second", "Third" , "fourth"]
 
@@ -721,6 +721,16 @@ print("|".join(mylist))
 
 This would pring first|second|Third|fourth
 ----------------------------------------------------------------------------------------------------
+Data Structures are a way to structure or organize data, that is really all there is to it! Not to 
+say that the data structures dont get stupidly complex, keep that in mind that they organize data. 
+
+You have been using a simple data structure this whole time, its called a list!
+----------------------------------------------------------------------------------------------------
+The author compared a list to a deck oc cards which made it a little easier to understand how to 
+break down a complex data structure (not that a list is complicated) its a good strategy for breaking
+down complex data sructures to things we see everyday in the realworld.
+----------------------------------------------------------------------------------------------------
+
 
 
 
