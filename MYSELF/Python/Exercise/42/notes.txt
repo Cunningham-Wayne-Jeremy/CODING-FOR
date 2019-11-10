@@ -805,4 +805,19 @@ a class called Fish and a class called Salmon with inheritance on that Fish clas
 until you create an instance. That instance is also called an obnject, because it was created by a 
 class which is an object. When I say it like this I realize its not really confusing after all.
 ----------------------------------------------------------------------------------------------------
+What is inheritance? Inheritance is when you have a base class and create a class that uses that base
+class as its starting point. What this looks like in code is class Humanoid(object); pass 
+class Elf(Humanoid); pass
+
+If I had given Humanoid a function instances created by the Elf class could call that function.
+----------------------------------------------------------------------------------------------------
+What is is-many or multiple inheritance? Well if I expanded on the elf class above and did 
+class Drow(Elf); pass and if I then did Drizzit = Drow() then that would make drizzit inherit 3 
+different classes, namely humanoid, Elf and Drow. Doing this is apparently a bad idea because it can
+get confusing to humans.
+----------------------------------------------------------------------------------------------------
+super will run a function from the parent, but what happens when you have 2 parents? is it super 
+super??
+----------------------------------------------------------------------------------------------------
+
 
