@@ -974,5 +974,13 @@ defined algorithim that picks the right function from those 2 parents when runni
 ----------------------------------------------------------------------------------------------------
 I wonder if super overwrites it permanently.... That I dont know. But I think maybe...
 ----------------------------------------------------------------------------------------------------
-Right when I thought I understood super I read that its used often for replacing the parent __init__
-function. 
+The most common use of super is to use it to modify the __init__ function of the base class parent 
+for example say you need this child to be a parent of some other class. So you override the parent
+__init__ function and new attributes in the __init__ but you still want to access the first parents
+__init__ so you use super at the end of your overwritten __init__ like so:
+
+def __init__(self,stuff):
+    self.stuff = stuff
+    super(Child, self).__init__()
+----------------------------------------------------------------------------------------------------
+Then there is Composition. Composition 
