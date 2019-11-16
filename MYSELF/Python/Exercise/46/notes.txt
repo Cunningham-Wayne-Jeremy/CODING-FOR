@@ -1037,8 +1037,22 @@ make tools that you may use as well. To save space on your device not all module
 as such if you want a particular module you need to install it with pip. pip3.6 install modulename
 ----------------------------------------------------------------------------------------------------
 VIRTUAL ENVIRONMENTS
+Virtual environments are a python tool for dependency management and project isolation. They install
+dependencies also called site packages which is also called 3rd party librarues these are installed
+locally in an isolated dir for a particular project.
+
+SO WHAT IS IT???
+Its just a directory with 3 components:
+A site-packages folder - where 3rd party are installed
+Symlinks to Python executables installed on your system
+scripts that ensure executed python code uses the python interpreter and site packages installed
+inside the virtual environment.
+
 This is just like docker, you create a virtual environment similar to a virtual machine but more
 like a mounted directory that acts like a separate environment to your local machine.
+
+Virtual Envs work because it modifies your path so that code will run from different path varaibles
+
 ----------------------------------------------------------------------------------------------------
 If you are returning to this function we needed to first install virtualenv with pip3.6 install virtualenv
 Then we made a hidden dir in home called .venvs
