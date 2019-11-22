@@ -1134,4 +1134,37 @@ remainder of something. Breaking that down further it basically says give me the
 The remainder of 1000000/the length of y(4) and because its a 10000000000 number it will always be
 0 which means y[0] or a
 ---------------------------------------------------------------------------------------------------
+When copying an array or when you want everything in a list you should do [:] When you want a
+specific range you can do [3:4) That would grab the 4th Element of a list.
+If you want a range say 2-4 in a list yo u would do [2:4]a
+when using [] it doesnt start with zero which threw me.
+ex:
+y=[1,2,3,4,5]
+# Say you want 3-4
+# Then you would do:
+range=y[2:4]
+print(range)
+#You can even do
+range = [:3] To get the first 3 elements
+range [3:] To get 4 and 5
+That is really cool! Now thing that you can do function calls within that and variable calls too!
+---------------------------------------------------------------------------------------------------
+The variable I used above is actually a command so dont forget that!
+range(start, end, interval)
+ex:
+list(range(1,10,5))
+1
+6
+Range default interval is 1 if not specified
+Also list will iterate something like a for loop or anything that iterates.
+---------------------------------------------------------------------------------------------------
+strip is an attribute on string output that removes spaces or line breaks
+---------------------------------------------------------------------------------------------------
+Why learn how to do things different ways in linux and coding????
+Because its all about efficency and time complexity, ram and compute power that is why!
+---------------------------------------------------------------------------------------------------
+Zed uses repr in a print statement alot to debug. But IDE built in debug tools are probably better.
+---------------------------------------------------------------------------------------------------
+
+
 
