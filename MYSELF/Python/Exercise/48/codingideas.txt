@@ -9,8 +9,10 @@ Check out leet code and code wars
 Make a  python script that checks other scripts for : at the end of objs and functions
 ---------------------------------------------------------------------------------------------------
 Make a python read the hobbit
----------------------------------------------------------------------------------------------------
-
+--------------------------------------------------------------------------------------------------
+Code a python refresher that will take user input and turn it into a script that can actually run
+It will be in a try block I think? or I can specify a try block idk we will have to see if you
+can have nested try blocks!
 ---------------------------------------------------------------------------------------------------
 
 ---------------------------------------------------------------------------------------------------

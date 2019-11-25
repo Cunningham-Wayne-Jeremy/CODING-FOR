@@ -12,12 +12,13 @@ while len(stuff) != 10:
     print(f"There are {len(stuff)} items now")
     #Yea I know its a single qoute but it doesnt matter.
 print('There we go: ', stuff)
-    
+
 print("Let's do some things with stuff.")
-    
+
 print(stuff[1]) #(Oranges)
 print(stuff[-1]) #whoa! fancy!(Corn!)
 print(stuff.pop())#Corn again?
-print(''.join(stuff))
-print('#'.join(stuff[3:5]))
-    
+print(' '.join(stuff))
+something=" delimiter "
+print(f'{something}'.join(stuff[2:5]))
+

@@ -1071,12 +1071,14 @@ I went and looked over the videos and found that they were really helpful so now
 all. This will take some time but not too long I hope! then I can get back to finishing the book.
 ----------------------------------------------------------------------------------------------------
 print("Some text here {}".format("It worked"))
-# We need text around this because it needs to be a string as the attribute format is only used on strings
+# We need text around this because it needs to be a string as the attribute format is only used on
+strings
 formatter = "{} {} {} {}"
 # This needs to be in a print statement because it needs to return to stdout.
 print(formatter.format(1,2,3,4))
 ----------------------------------------------------------------------------------------------------
-* can be used to pull all data points from an array, list or LITERALLY anything with multiple data pts
+* can be used to pull all data points from an array, list or LITERALLY anything with multiple data
+points. For example:
 myarray = [1,2,3,4]
 print(*myarray)
 # This would print 1 2 3 4
@@ -1087,8 +1089,8 @@ This is good to know as it gives a vague error:
   File "<stdin>", line 1
 SyntaxError: positional argument follows keyword argument
 
-From the context it looks like end is a keyword argument and then there is positional arguments which
-I assume are the commas.
+From the context it looks like end is a keyword argument and then there is positional arguments i
+which I assume are the commas.
 ----------------------------------------------------------------------------------------------------
 You can use repr(var) to print the string equivlalent of a varibale or object.
 ---------------------------------------------------------------------------------------------------
@@ -1156,7 +1158,7 @@ list(range(1,10,5))
 1
 6
 Range default interval is 1 if not specified
-Also list will iterate something like a for loop or anything that iterates.
+Also list will create a list for you from the output of something.
 ---------------------------------------------------------------------------------------------------
 strip is an attribute on string output that removes spaces or line breaks
 ---------------------------------------------------------------------------------------------------
@@ -1165,6 +1167,212 @@ Because its all about efficency and time complexity, ram and compute power that 
 ---------------------------------------------------------------------------------------------------
 Zed uses repr in a print statement alot to debug. But IDE built in debug tools are probably better.
 ---------------------------------------------------------------------------------------------------
+Be careful when you declare a block in python, it doesnt have a precompiler like java and C. That
+means its more like procedural laguage. So the placement of functions and other blocks matter. For
+example you cant do:
 
+myfunction(10,30)
 
+def myfunction(num1,num2)
+    return num1 * num2
+
+The above code would error out because python gets to the first line and says Oh this a function
+call I should look for my function in the code that is before the declaration, but the function
+doesnt exist yet so it errors out saying myfunction does not exist.
+
+This is the same with everything in python. Everything is top to bottom format meaning you make
+the functions and variables then you can manipulate them all you want, so keep that in mind.
+---------------------------------------------------------------------------------------------------
+PRINT ALL VALUES OF ARRAY WITHOUT NEW LINE:
+usually when you have an array and you make a for loop to print it out it shows up like this
+a
+b
+c
+d
+
+What if you want a b c d?
+
+Then you would do
+
+y=["a","b","c","d"]
+for eachitem in y:
+    print(eachitem, end=" ")
+TADA! a b c d
+---------------------------------------------------------------------------------------------------
+DID YOU KNOW?
+That the incremental variable in a for loop is created for you inside the code for the for loop?
+yes I did know that BUT I didnt know that the variable is not deleted once the loop completes its a
+global variable and can be called/used after the for loop runs. The value of i is whatever the value
+was at the end of the loop as it is overwritten in the loop process.
+
+SO WHY DO I CARE?
+Well if you combine for loops and breaks and if statements you can have an interesting looking for
+loop that may very well be useful one day!
+---------------------------------------------------------------------------------------------------
+LOGICAL ERROR on ex35
+I had an error on ex 35 where I called the function dead like this:
+dead:("You stumble around the room until you starve.")
+This function was supposted to trigger when i died but because it had that : when called it never
+went off. I never saw that because I didnt test the dead paths (who wants to die right!) And this
+same thing could and would happen in other scenarios so that is why you need unit testing!
+
+QUESTION - But what did function:() do? Why didnt that error out??
+Lets investigate that later
+---------------------------------------------------------------------------------------------------
+Revewing the code on EX35 when I missed a hidden gem which is the word in
+That simple beautiful word is basically a contains statement. So when you want to take some input
+from a user and have something trigger off their phrase you dont have to specify what EXACTLY to
+type in. You just have to say if whatever they enter contains the word punch, then run the if
+statment below. PRETTY HANDY MY FRIEND. Of course we dont want to think of using this with JUST user
+input, that would be thinking small. We can use this with piped commands, logs that contain some
+hideous string we wish to filter and anything you can think of. With just one word I can now do ex49
+--------------------------------------------------------------------------------------------------
+I love the concept that this book teaches which is break GIANT problems into smaller ones. What
+noobs dont realize is that this is teaching us to think like an agile developer and teaches you how
+to work in a team of developers all working on pieces of the GIANT puzzle. That concept is really an
+important one and a good way to think like a developer.
+---------------------------------------------------------------------------------------------------
+I dont think I have written about try and except blocks
+These are used to print out errors of your own creation. This is often used to created a black box
+so that malificent users who attept to find vulnerabilities in your code have a harder time
+identifying those vulnerabilies because it wont print the coding languages generic error that could
+identify the version of python in use.
+
+Try blocks can include anything you want in them if statements, arrays, functions you name it.
+Remember anything thing in python can be used with something else in python. Include that philosophy
+when dealing with other languages as well to continue to learn and grow!
+
+To declare one just do
+def test():
+    try:
+        var = "not a number"
+        int(var)
+    except:
+        print(f"ERROR: {var}")
+test()
+----------------------------------------------------------------------------------------------------
+Review the % codes in excercise 37 as they are used in all coding languages which is really cool.
+Its mostly formating but it could be fun to review.
+----------------------------------------------------------------------------------------------------
+Just a review when you declare an object and then put a function inside of it the first parameter
+of that function has to be self or whatever you named the first variable of the __init__ function
+of the class. If you attempt to define a function without any parameters def func() it will error
+out with TypeError: func takes 0 positional arguments but 1 was given
+Now this can be really confusing as you supplied func with zero parameters in your call but python
+is saying it has one.
+
+Why does this happen well when the __init__ is not declared in the class a default hidden __init__
+is still declared with self as one of its parameters. Then that self is automatically passed to the
+function when called
+
+How do I fix it?
+It is quite an easy fix all you have to do is when declaring a function or WHATEVER it is that has
+parameters just require to run it with self like so:
+def myfunction(self)
+    dosomething = ""
+    return dosomething
+
+BUT HERE IS ANOTHER CATCH when you call it, call it as if it had no parameters
+a = something()
+a.myfunction()
+
+I know its confusing but that is life
+
+THERE IS A WAY AROUND THIS and that is to not create an instance at all and just do
+something.myfunction() or something.function("Hey you!")
+and it will work lol!
+----------------------------------------------------------------------------------------------------
+This all relates to whether or not its an instance or not. SO RECAP
+If you made an instance you need self
+If you run class.function you dont.
+easy enough when you put it that way.
+----------------------------------------------------------------------------------------------------
+Reviewing excercise 38 I remembered that I have not taken notes on the ability that f has to run
+whatever python code you want inside of it. A good example of this is in ex38 where Zed runs the
+length attribiute inside an f. Experimenting with this myself I have found that you can put whatever
+you want inside an f"{}" you are only limited to your imagination but it does reduce the readability
+of your code to be sure!
+----------------------------------------------------------------------------------------------------
+CHALLENGE/IDEA
+Write a python code that will take user input and send it to a file and run that file. This is going
+to be used to refresh your python skills once you have moved on to other languages. This will help
+you become familiar once agian with the syntax of python, that is its objective. Python teacher!
+----------------------------------------------------------------------------------------------------
+A term I am unaware of so far is referential data, when you assign something to some value you are
+creating meta data about that data called referential data. This is how python stores your variables
+and other things like dictionaries. This goes for functions too as they are created with a name.
+----------------------------------------------------------------------------------------------------
+When you want to add a value to an existing dictionary you dont use .append or some other builtin
+function that you have seen in the past. Instead you declare it like so:
+cities['NY'] = "New York"
+
+That will add a dictionary value to the existing dict called cities. With the key being NY and the
+value of New York
+----------------------------------------------------------------------------------------------------
+Remember that you can nest dictionaries and can use variables and can use things with other things
+of course!
+----------------------------------------------------------------------------------------------------
+dictname.items - will show all of the items in a dictionary. This is quite useful when dealing with
+dictionaries that you havent worked with in some time or that you didnt create.
+----------------------------------------------------------------------------------------------------
+So real quick I need to practice this but you can do list(dict.items())
+SO what that will do is divide up the values of the dictionary and assign them to a tuple with two
+values per list slot. This looks like this when done:
+mydictlist[(key0,value0 ),(key2,pair2),(key3,pair3),(key4,pair4)]
+
+Essentially this will convert the dict to a tuple(uneditable list) and as such it will allow you to append, join,split
+or whatever else you want done on it! When finished I am sure there is a way to turn it back into
+a dict with a for loop or something
+EXCERCISE Turn a dict into a list make some adjustments and then turn it back into a dict!
+
+Once its in list form you can do
+x,y = mydictlist[0]
+That will assign the values x to the first half of the dict/list and the value y to the second
+for x, y in len(mydictlist-1):
+    backtoadict={"x" : "y"}
+DONE! Basically did the excercise
+----------------------------------------------------------------------------------------------------
+dictname.get("keyname") or dict["keyname"] Both of these will return the value at the key name
+specified. The difference being is the latter will error out if it doesnt exist and the get wont.
+Get proves really useful when you want to check if that dict exists and if it does/nt do something.
+----------------------------------------------------------------------------------------------------
+When using python from the cli idents can sometimes be ignored.. Intersting! Dont forget
+experimenting with the ;
+----------------------------------------------------------------------------------------------------
+OOOOOOKAY, Zed just blew my mind hole in ex40.py
+
+He showed me some very cool deep understanding of python which is how to show the dicionary keys of
+all the things that python keeps track of. I dont quite understand it but when importing a module
+back in ex25 that action of importing a module modifies a dunder dict dunder or doubleunderscore
+dict double underscore. This __dict__ is a list of all imported libraries and their functions
+WHAT IS COOL ABOUT THIS?
+Well go right now and open python3.6
+type in this to show all of the objects? (idk what to call `em):
+import sys
+sys.__dict__
+Watch as your screen fills up with so much metadata!
+TO make it easier to read why not do
+sys.__dict__.keys()
+This will show all of the things that you can call with sys!
+
+So when you are checking out a module you can do this and find what you can do with that module!!!!
+
+VERY NICE RIGHT!
+
+As I though argv is in there. That is so cool!
+
+Well if you imported 25 you would see all of the functions from ex25 as well.
+----------------------------------------------------------------------------------------------------
+That was not all he showed in that video he also showed global() Global shows all of the global vars
+that python is keeping track of right now!
+----------------------------------------------------------------------------------------------------
+Now that you know about __dict__ you now know that when you run a function from a module python
+checks the dictionary for where to find that value
+For example
+import 25
+25.myfunction()
+That will make Python check its dict then it will now where to retrieve that command!
+----------------------------------------------------------------------------------------------------
+ Make sure you do more excercise 41 for sure!
+----------------------------------------------------------------------------------------------------
 
