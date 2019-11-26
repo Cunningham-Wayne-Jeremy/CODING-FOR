@@ -1373,6 +1373,10 @@ import 25
 25.myfunction()
 That will make Python check its dict then it will now where to retrieve that command!
 ----------------------------------------------------------------------------------------------------
- Make sure you do more excercise 41 for sure!
+ Make sure you REVIEW excercise 41 for sure!
+----------------------------------------------------------------------------------------------------
+The way you start with OOP projects according to Zed in ex43 is to jot down the nouns and then see
+if any of those nouns have like things in common. When they do you group them together in a
+heirarchy, that heirarchy becomes your skeleton for the project you are working on!
 ----------------------------------------------------------------------------------------------------
 
