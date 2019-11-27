@@ -1,8 +1,5 @@
-# When I run "import classpython" That actually runs the entire module as it has user input and it calls its own functions.
-# To address this I had to remove the function calls from the script/module
 from classpython import oddeven
-
-# That still fails because we are calling the functions inside the module, like so: oddeven()...
+from sys import exit
 def lettergrade():
     # The interoperability of code is astounding, one thing generally does work with another
     # thing. That concept reminds me of Magika, that sweet little game where you combine
@@ -21,19 +18,27 @@ def lettergrade():
         print(f"Unfortunately {numcent[0]}, you failed. Better luck next time.")
 
 def profitloss():
-    # I am going to do some math and use it within itself
-    mystical = [f"{profit=10}"]
-    # Testing this, should still work as long as everything is BEFORE the return
-    print(mystical[0])
-    return None
+    revenue = int(input("Enter the predicted revenue: "))
+    fixed_costs = int(input("Enter the fixed costs: "))
+    variable_costs = int(input("Enter the variable costs: "))
+    profit = revenue - fixed_costs - variable_costs
+    if profit > 0:
+        print(f"Profit of {profit} is projected")
+    else:
+        print(f"A loss of {profit} is projected")
 
 
 
-
-userinput = int(input("What function do you want to run? [Odds/Evens(1),Letter_Grade(2),Profit_Loss(3)]"))
+try:
+    userinput = int(input("What function do you want to run? [Odds/Evens(1),Letter_Grade(2),Profit_Loss(3)]"))
+except:
+    print("ERROR")
+    exit(0)
 if userinput == 1:
     oddeven()
-if userinput == 2:
+# I wondered what the difference was in elif and if, if you change the elif to an if below it will cause the else to trigger!
+# becuase its in a different block I suppose. its quite strange though
+elif userinput == 2:
     lettergrade()
 else:
     profitloss()

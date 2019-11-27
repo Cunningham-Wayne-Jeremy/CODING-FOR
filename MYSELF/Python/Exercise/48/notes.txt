@@ -1375,4 +1375,41 @@ That will make Python check its dict then it will now where to retrieve that com
 ----------------------------------------------------------------------------------------------------
  Make sure you do more excercise 41 for sure!
 ----------------------------------------------------------------------------------------------------
+When using f you cannot declare variables, so keep that in mind! Also when importing a python file
+that has function calls in it, those will run so if you want to reuse your functions from that module
+you will need to remove the funciton calls.
+----------------------------------------------------------------------------------------------------
+An API is not as scary as I thought its just a created set of functions, procedures, methods and
+classes used by computer programs to request services from the OS. You use the API to make
+applications.
+----------------------------------------------------------------------------------------------------
+When using Java Zed says that its best to use inheritance but with most other langauges compositon
+is easier to use.
+----------------------------------------------------------------------------------------------------
+ACTIVITY - Investigate multiple inheritance, print out self in ex44 or any excercise that has
+inheritance. get a deeper understanding of what self is.
+----------------------------------------------------------------------------------------------------
+ACTIVITY - DO EX 45 you skipped it bad Jeremy
+----------------------------------------------------------------------------------------------------
+Yak Shaving - doing a bunch of work that should of been documented but wasnt because the developer
+assumed it works for me so it works for eveyone :P
+----------------------------------------------------------------------------------------------------
+I learned something about how try and except blocks work.
+You can use an error catcher within the except block that has a specific name such as ImportError
+If you put whatever you want in there instead it errors out.
+
+try:
+    import somethingherethatdoesntexist
+except ImportError:
+    from sys import exit
+----------------------------------------------------------------------------------------------------
+print(*var)  - take any nunber of args
+print(**var) - take any number of option arguments
+QUESTION WHAT IS THE DIFFERENCE BETWEEN optional arguments and the other one?
+----------------------------------------------------------------------------------------------------
+Python setup.py install from the cli will install your pacakge that you created in ex47 and 48
+This is how you make pacakges that other can download through pip
+----------------------------------------------------------------------------------------------------
+
+
 

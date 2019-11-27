@@ -14,7 +14,7 @@ Code a python refresher that will take user input and turn it into a script that
 It will be in a try block I think? or I can specify a try block idk we will have to see if you
 can have nested try blocks!
 ---------------------------------------------------------------------------------------------------
-
+Make a translator spanish to english (simple simple simple one)
 ---------------------------------------------------------------------------------------------------
 
 ---------------------------------------------------------------------------------------------------
