@@ -1373,7 +1373,11 @@ import 25
 25.myfunction()
 That will make Python check its dict then it will now where to retrieve that command!
 ----------------------------------------------------------------------------------------------------
- Make sure you do more excercise 41 for sure!
+ Make sure you REVIEW excercise 41 for sure!
+----------------------------------------------------------------------------------------------------
+The way you start with OOP projects according to Zed in ex43 is to jot down the nouns and then see
+if any of those nouns have like things in common. When they do you group them together in a
+heirarchy, that heirarchy becomes your skeleton for the project you are working on!
 ----------------------------------------------------------------------------------------------------
 When using f you cannot declare variables, so keep that in mind! Also when importing a python file
 that has function calls in it, those will run so if you want to reuse your functions from that module
