@@ -1391,7 +1391,7 @@ When using Java Zed says that its best to use inheritance but with most other la
 is easier to use.
 ----------------------------------------------------------------------------------------------------
 ACTIVITY - Investigate multiple inheritance, print out self in ex44 or any excercise that has
-inheritance. get a deeper understanding of what self is.
+inheritance. Get a deeper understanding of what self is.
 ----------------------------------------------------------------------------------------------------
 ACTIVITY - DO EX 45 you skipped it bad Jeremy
 ----------------------------------------------------------------------------------------------------
@@ -1414,6 +1414,25 @@ QUESTION WHAT IS THE DIFFERENCE BETWEEN optional arguments and the other one?
 Python setup.py install from the cli will install your pacakge that you created in ex47 and 48
 This is how you make pacakges that other can download through pip
 ----------------------------------------------------------------------------------------------------
+I decided to go back and print out self on each of the functions in ex44.py. When I did so I learned
+something quite important that could bite me in the toochie if I dont remeber it so:
 
+REMEMBER:
+If you ever are calling ids based on self KNOW that if you have the parent print out self inside a
+function and you call that function and it prints out self. The self that it will print out will
+belong to the child. Just PYI
+----------------------------------------------------------------------------------------------------
+When you want to do composition all you need to do is declare 2 classes that DO NOT INHERIT from
+each other (I wonder what would happen if they did though?) Then do:
 
+class composition(object):
+    def __init__(self):
+        self.other = Otherclass()
+
+    def somefunction(self):
+        self.other.somefunction()
+So you are setting the value of self to an instance of another's class. Then you just call the
+functions you want from the other class by nesting them in the same named functions for readbility,
+very cool!
+----------------------------------------------------------------------------------------------------
 
