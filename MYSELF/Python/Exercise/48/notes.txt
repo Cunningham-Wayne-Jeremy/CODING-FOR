@@ -1435,4 +1435,11 @@ So you are setting the value of self to an instance of another's class. Then you
 functions you want from the other class by nesting them in the same named functions for readbility,
 very cool!
 ----------------------------------------------------------------------------------------------------
+So I learned something pretty important in ex45 when attempting to code my own game I had trouble
+understanding Zeds logic of how he created to classes and put them inside each other as a parameter
+and it blew my mind. That isnt hard to understand once you separate it out into concepts, a thng in
+python can be used with another thing, even as a parameter to another thing. But I was struggling with
+it so I made my own little python script demonstrating it called classes_inside_classes.py
+Its in Excercise 45 if you want to review it.
+----------------------------------------------------------------------------------------------------
 

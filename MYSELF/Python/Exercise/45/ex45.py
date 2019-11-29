@@ -110,9 +110,13 @@ class Engine(object):
         self.scene_map = scene_map
 
     def play(self):
-        current_scene = Engine.scene_map
+        current_scene = self.scene_map.opening_scene()
+        # So this is setting the value of current_scene to Map("bridge").opening_scene I think and that works
         last_scene = Map.scenes.get("finished")
-        while current_scene != last_scene
+        while current_scene != last_scene:
+            current_scene = Map.get_scene(
+            return current_scene
+
 
 class Map(object):
     scenes = {"death" : Death(),
@@ -129,14 +133,15 @@ class Map(object):
     def __init__(self, start_scene):
         self.start_scene = start_scene
 
-    def next_scene(self, scene_name):
-        val = Map
+    def get_scene(self, scene_name):
+        val = Map.scenes.get(scene_name)
         return val
 
-    def opening_scene(self)
+    def opening_scene(self):
+        return self.get_scene(self.start_scene)
 
 a_map = Map("bridge")
-
+a_game_engine = Engine(a_map)
 ####################################################################################################
 #print("""
 #        THE 5 GOLDEN RULES OF SELF
