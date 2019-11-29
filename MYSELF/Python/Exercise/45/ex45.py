@@ -103,39 +103,76 @@ class Death(Scene):
 
 # AGAIN WHEN WORKING WITH SELF
 # ASSSIGN IT!!!!!!!!!!!!!!!!!!!!!!!!!
-d = Death()
-d.enter()
 
+class Engine(object):
+
+    def __init__(self, scene_map)
+        self.scene_map = scene_map
+
+    def play(self):
+        current_scene = Engine.scene_map
+        last_scene = Map.scenes.get("finished")
+        while current_scene != last_scene
+
+class Map(object):
+    scenes = {"death" : Death(),
+            "bridge" : Bridge(),
+            "feiry_pit" : Feiry_pit(),
+            "magical_horse" : Magical_Horse(),
+            "snake" : Snake(),
+            "marbels" : Marbels(),
+            "dragon" : Dragon(),
+            "finished" : Finished()
+            }
+    # when you make an instance from this class you need to provide it with a key value for one of
+    # the scenes in the dictionary which will be the starting/opening scene
+    def __init__(self, start_scene):
+        self.start_scene = start_scene
+
+    def next_scene(self, scene_name):
+        val = Map
+        return val
+
+    def opening_scene(self)
+
+a_map = Map("bridge")
 
 ####################################################################################################
-print("""
-        THE 5 GOLDEN RULES OF SELF
-
-        OK I have learned a valuable lesson here, which is HOW and WHEN to use self.
-
-        First off dont forget to create an instance from an object if you are going to use self
-
-        Second, when referencing attributes of a CLASS (just a class) you need to use self.attribute
-        otherwise you will get a "name" is undefined error.
-
-        Third when running a function that is used with an instance. You need to add self to the
-        parameter declaration. If you dont this will cause that function to error out when called
-        because it will pass self to the function anyway and when ran it will error out with too many
-        arguments.
-
-        Fourth you must assign all other parameters expected by the function to the instance with
-        self.parameter_name = parameter_name or python will say that parameter is missing.
-
-        Fifth - If you plan on chaining object functions and it starts with an instance then ALL of
-        the functions will need to include self in the function parameters, DONT FORGET THAT!
-        """)
+#print("""
+#        THE 5 GOLDEN RULES OF SELF
+#
+#        OK I have learned a valuable lesson here, which is HOW and WHEN to use self.
+#
+#        First off dont forget to create an instance from an object if you are going to use self
+#
+#        Second, when referencing attributes of a CLASS (just a class) you need to use self.attribute
+#        otherwise you will get a "name" is undefined error.
+#
+#        Third when running a function that is used with an instance. You need to add self to the
+#        parameter declaration. If you dont this will cause that function to error out when called
+#        because it will pass self to the function anyway and when ran it will error out with too many
+#        arguments.
+#
+#        Fourth you must assign all other parameters expected by the function to the instance with
+#        self.parameter_name = parameter_name or python will say that parameter is missing.
+#
+#        Fifth - If you plan on chaining object functions and it starts with an instance then ALL of
+#        the functions will need to include self in the function parameters, DONT FORGET THAT!
+#        """)
 #####################################################################################################
 # So for this simple game I will not assign anything to a class except egine and map therefore I will
 # not be creating instances, because I just want to run it with self and that is it. This would make
 # the code similar to Zeds but very different still becuase of the timers.
 
-# I will only use instances on the engine class and map classes (cuz that is what Zed didnot sure why
-# though)
+# I will only use instances on the engine class and map classes (cuz that is what Zed did not sure
+# why though) So I was looking into this and at his engine from memory! (gj me!) as it says to do in
+# in the excercise and I recalled that the engine takes the map function in side of it and the map
+# takes the output of the scenes because they return the key and then that gets the value which holds
+# The function name whose enter function is called with no parameters. Now that is fine because each
+# scene has an enter function but we can code this however we like. For the sake of ease we will
+# stick to how Zed does it
+
+
 
 
 
