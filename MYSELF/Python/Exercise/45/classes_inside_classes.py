@@ -1,4 +1,5 @@
 from textwrap import dedent
+import ex45
 class myclass(object):
     dict={"1" : "one", "2" : "two" , "3" : "three", "4" : "four"}
     def __init__(self,parameter):

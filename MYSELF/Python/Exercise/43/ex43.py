@@ -1,20 +1,20 @@
 from sys import exit
 from random import randint
 from textwrap import dedent
-# How do I start the game? 
+# How do I start the game?
 # is it just a bunch of conditional statements?
 # no its done by return statements somehow
-# 
+#
 
-# Coding this like I am someone else is the problem for sure.... but we need arrays for and to 
-# randomly choose from that array. 
+# Coding this like I am someone else is the problem for sure.... but we need arrays for and to
+# randomly choose from that array.
 # The success path is linear so it should return the next path when finished
 
 # This was dificult to code as he made a crappy outline and I dont think like him so that was a
 # mistake. The outline threw me and I didnt understand how one object linked to the other which is by
 # a dictionary.... A dictionary was the missing link. There was nothing complicated about it I just
-# was stuck and he had literally no hints that were helpful. It feels rushed and it shouldnt be a 
-# rushed thing 
+# was stuck and he had literally no hints that were helpful. It feels rushed and it shouldnt be a
+# rushed thing
 class Scene(object):
     def enter(self):
         print("Not sure what I am doing here")
@@ -22,29 +22,34 @@ class Scene(object):
         exit(1)
 
 class Engine(object):
-# this is the game engine. 
+# this is the game engine.
     def __init__(self, scene_map):
-        self.scene_map = scene_map            
+        self.scene_map = scene_map
 
     def play(self):
         current_scene = self.scene_map.opening_scene()
         last_scene = self.scene_map.next_scene('finished')
 
         while current_scene != last_scene:
+            print("beginning of the while loop, the current_scene is: ", current_scene)
             next_scene_name = current_scene.enter()
+            print("The next_scene_name is: ", next_scene_name)
             current_scene = self.scene_map.next_scene(next_scene_name)
-
+            print("End of while loop")
         # be sure to print out the last scene
         current_scene.enter()
+#a_map = Map('central_corridor')
+#a_game = Engine(a_map)
+#a_game.play()
 class Death(Scene):
-    
+
     quips = [
         "You died. Keep trying!",
         "I know this game is stupid",
-        "Zed is a cunt in real life",
+        "Zed is awesome in real life",
         "I hate this game as much as I hated coding it",
-        "Objects are complex and that fucker barely went over them",
-        "I really dont like Zed he rushed the end of this book to be sure"
+        "Objects are complex!",
+        "I blame others when I dont succeed"
 ]
     def enter(self):
         print(Death.quips[randint(0, len(self.quips)-1)])
@@ -53,7 +58,7 @@ class Death(Scene):
 class CentralCorridor(Scene):
 
     def enter(self):
-        # Ok so the enter scene is the description of the scene itself 
+        # Ok so the enter scene is the description of the scene itself
         print(dedent("""
             The Gothons of Planet Percal #25 have invaded your ship and
             destroyed your entire crew. You are the last surviving
@@ -67,12 +72,12 @@ class CentralCorridor(Scene):
             filled body. He's blocking the door to the Armory and
             about to pull a weapon to blast you.
             """))
-            
+
             # get some user input
             # "Games" like these server no purpose, guessing only to read what happens requires
-            # zero skill just annoying patience. 
+            # zero skill just annoying patience.
         action = input("{shoot, dodge, joke} ")
-            
+
         if action == "shoot":
             print(dedent("""
                 Quick on the draw you yank out your blaster and fire
@@ -84,7 +89,7 @@ class CentralCorridor(Scene):
                 blast you repeatedly in the face until you are
                 dead. Then he eats you.
                 """))
-            return 'death' 
+            return 'death'
 
         elif action == "dodge":
             print(dedent("""
@@ -92,11 +97,11 @@ class CentralCorridor(Scene):
                 slide right as the Gorthon's blaster cranks a laser
                 past your head. In the middle of your artful dodge
                 your foot slips and you bang your head on the metal
-                wall and pass out. You wake shortly after only to 
+                wall and pass out. You wake shortly after only to
                 die as the Gothon stomps on your head and eats you.
                 """))
             return 'death'
-                                            
+
         elif action == 'joke':
             print(dedent("""
                 Lucky for you they made you learn Gothon insults in
@@ -111,10 +116,10 @@ class CentralCorridor(Scene):
 
             return 'laser_weapon_armory'
 
-        else: 
+        else:
             print("DOES NOT COMPUTE!")
             return 'central_corridor'
-                                                
+
 class LaserWeaponArmory(Scene):
 
     def enter(self):
@@ -123,23 +128,23 @@ class LaserWeaponArmory(Scene):
             for mor Gothons that might be hiding. It's dead quiet, too quiet.
             You stand up and run to the far side of the room and find the
             neutron bomb in its container. There's a keypad lock on the box
-            and you need the code to get the bomb out. If you get the code 
+            and you need the code to get the bomb out. If you get the code
             wrong ten times then the lock closes forever and you can't
             get the bomb. The code is 3 digits.
             """))
         action = input("its 0132> ")
 
         count = 0
-        
-        while count < 10:        
+
+        while count < 10:
             count += 1
             if count > 10:
                 print(dedent("""
-                    The keypad locks with a resounding click. Standing you make for 
-                    The door when suddenly the chamber door slams shut sealing you 
-                    within it. It looks like the keypad was bobby trapped. You starve 
-                    to death with only the keypads menacing "ERROR" message to 
-                    comfort you. 
+                    The keypad locks with a resounding click. Standing you make for
+                    The door when suddenly the chamber door slams shut sealing you
+                    within it. It looks like the keypad was bobby trapped. You starve
+                    to death with only the keypads menacing "ERROR" message to
+                    comfort you.
                     """))
                 return 'death'
 
@@ -148,7 +153,7 @@ class LaserWeaponArmory(Scene):
                     The container clicks open and the seal breaks, letting gas out.
                     You grab the neutron bomb and run as fast as you can to the
                     bridge where you must place it in the right spot.
-                    """))    
+                    """))
                 return 'the_bridge'
 
             elif  count < 10:
@@ -163,9 +168,9 @@ class TheBridge(Scene):
             take control of the ship.  Each of them has an even uglier
             clown costume than the last.  They haven't pulled their
             weapons out yet, as they see the active bomb under your
-            arm and don't want to set it off.            
+            arm and don't want to set it off.
             """))
-            
+
         action = input("{slowly place bomb, throw bomb}")
         if action == "slowly place bomb":
             print("")
@@ -185,7 +190,7 @@ class EscapePod(Scene):
             and blast the lock so the Gothons can't get out.
             Now that the bomb is placed you run to the escape pod to
             get off this tin can.
-            
+
             You rush through the ship desperately trying to make it to
             the escape pod before the whole ship explodes.  It seems like
             hardly any Gothons are on the ship, so your run is clear of
@@ -201,8 +206,8 @@ class EscapePod(Scene):
                 the planet below.  As it flies to the planet, you look
                 back and see your ship implode then explode like a
                 bright star, taking out the Gothon ship at the same
-                time. 
-                """)) 
+                time.
+                """))
             return 'finished'
         else:
             return 'death'
@@ -213,7 +218,7 @@ class Finished(Scene):
 
 
 class Map(object):
-    # Dictionary 
+    # Dictionary
     scenes = {
         'central_corridor': CentralCorridor(),
         'laser_weapon_armory': LaserWeaponArmory(),
@@ -221,9 +226,9 @@ class Map(object):
         'escape_pod': EscapePod(),
         'death': Death(),
         'finished': Finished(),
-    } 
+    }
 # Lets break down Map/Engine magic
-# When the map oject is called it needs a parameter called start scene. You see this an example of 
+# When the map oject is called it needs a parameter called start scene. You see this an example of
 # this with a_map = Map('central_corridor')
 # Then the engine function takes the dict value of central_corridor and inputs into map opening scene
 # Then the scene loads and the engine while loop controls it.

@@ -1436,10 +1436,57 @@ functions you want from the other class by nesting them in the same named functi
 very cool!
 ----------------------------------------------------------------------------------------------------
 So I learned something pretty important in ex45 when attempting to code my own game I had trouble
-understanding Zeds logic of how he created to classes and put them inside each other as a parameter
+understanding Zeds logic of how he created the classes and put them inside each other as a parameter
 and it blew my mind. That isnt hard to understand once you separate it out into concepts, a thng in
-python can be used with another thing, even as a parameter to another thing. But I was struggling with
-it so I made my own little python script demonstrating it called classes_inside_classes.py
-Its in Excercise 45 if you want to review it.
+python can be used with another thing, even as a parameter to another thing.
 ----------------------------------------------------------------------------------------------------
+                            THE 5 GOLDEN RULES OF SELF
+
+OK I have learned a valuable lesson here, which is HOW and WHEN to use self.
+
+First off dont forget to create an instance from an object if you are going to use self
+
+Second, when referencing attributes of a CLASS (just a class) you need to use self.attribute
+otherwise you will get a "name" is undefined error.
+
+Third when running a function that is used with an instance. You need to add self to the
+parameter declaration. If you dont this will cause that function to error out when called
+because it will pass self to the function anyway and when ran it will error out with too many
+arguments.
+
+Fourth you must assign all other parameters expected by the function to the instance with
+self.parameter_name = parameter_name or python will say that parameter is missing.
+
+Fifth - If you plan on chaining object functions and it starts with an instance then ALL of
+the functions will need to include self in the function parameters, DONT FORGET THAT!
+----------------------------------------------------------------------------------------------------
+To understand objects and how to make them feed into each other I pasted a snippet from ex43 with
+commentary on the lines that matter most:
+
+class Engine(object):
+# this is the game engine.
+    def __init__(self, scene_map):
+        self.scene_map = scene_map
+
+    def play(self):
+        current_scene = self.scene_map.opening_scene()
+        last_scene = self.scene_map.next_scene('finished')
+
+        while current_scene != last_scene:
+            print("beginning of the while loop, the current_scene is: ", current_scene)
+            # This little variable next_scene_name, I was struggling for a long time trying to
+            # objects out and this little guy was hidden in plain sight. I overlooked him because
+            # he just runs the enter function on scene but he does one other thing, and that is how
+            # the object chaining even works and that is the return. After that entire object runs
+            # the if statements, the different calls, it all boils down to one string and that is
+            # how this works. That sting just calls the next scene and that is the most crucial part
+            # of the engine!
+            next_scene_name = current_scene.enter()
+            # FINALLY I UNDERSTAND next_scene_name works because of the return in all of the scenes
+            # if statements they always return a string, THANK GOD! now I write my own game FREAK!
+            print("The next_scene_name is: ", next_scene_name)
+            current_scene = self.scene_map.next_scene(next_scene_name)
+            print("End of while loop")
+        # be sure to print out the last scene
+        current_scene.enter()
 
