@@ -2,7 +2,7 @@ Design journal app for iOS react native (apprently)
 ---------------------------------------------------------------------------------------------------
 Learn how to use Boto3 in python to pull in AWS resources
 ---------------------------------------------------------------------------------------------------
-Use bas info box to make a journal app to read and write to a file
+Use bash info box to make a journal app to read and write to a file
 ---------------------------------------------------------------------------------------------------
 Check out leet code and code wars
 ---------------------------------------------------------------------------------------------------
@@ -16,9 +16,10 @@ can have nested try blocks!
 ---------------------------------------------------------------------------------------------------
 Make a translator spanish to english (simple simple simple one)
 ---------------------------------------------------------------------------------------------------
-
+design a linux package like a caledar info box for tmux
 ---------------------------------------------------------------------------------------------------
-
+Make a python script that will run portions of the notes.txt maybe? (sounds impossible without pre
+formatting the notes.txt file)
 ---------------------------------------------------------------------------------------------------
 
 ---------------------------------------------------------------------------------------------------

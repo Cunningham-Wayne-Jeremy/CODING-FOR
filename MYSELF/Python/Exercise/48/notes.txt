@@ -1489,4 +1489,14 @@ class Engine(object):
             print("End of while loop")
         # be sure to print out the last scene
         current_scene.enter()
+----------------------------------------------------------------------------------------------------
+MORE SELF:
+You really cant talk about self enough, so here is a better example of self after using it for a
+while. Self is a way to call class attributes whether they are inherited or not. That is the best
+definition I have found so far!
+
+I am sure I will evolve my definition of self as I continue but so far that is the most practical
+definition I have as of yet.
+----------------------------------------------------------------------------------------------------
+
 
