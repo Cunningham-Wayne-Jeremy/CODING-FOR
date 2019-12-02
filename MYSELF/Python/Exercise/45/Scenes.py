@@ -129,33 +129,190 @@ class Magical_Horse(Scene):
                     towards one of the large columns!"""))
 
         start_time = time()
-        stop_time = start_time + 3
+        stop_time = start_time + 12
+        dodge_pillar = start_time + 3
+        dodge_fire = start_time + 6
+        dodge_snake = start_time + 11
+        count = 1
+
         while start_time < stop_time:
             userinput = input("What do you do? ")
             start_time = time()
-            if start_time > stop_time:
+            if "left" in userinput or "right" in userinput and count == 1 and start_time < dodge_pillar:
+                print(dedent("""
+                            You dodge the giant pillar but now face a new problem, you are racing
+                            towards a wall of fire suspended between two pillars!
+                            """))
+                count += 1
+                start_time = time()
+            elif "left" in userinput or "right" in userinput and start_time < dodge_fire and count == 2:
+                print(dedent("""
+                            Dodging the fire you pass between two large columns when suddenly a large
+                            python wrapped around one of the pillars attemps to bite you from above!
+                            """))
+                count +=1
+                start_time = time()
+            elif "down" in userinput and start_time < dodge_snake and count == 3:
+                print(dedent("""
+                            The snake misses you, crashing into another pillar and before you know it
+                            the pillars are crashing into each other and the ceiling begins to collapse.
+                            You dart for the only exit which is soon to be blocked by falling pillars. A
+                            tiny hole remains open but your horse is too big to get through it!
+                            """))
+                count +=1
+                start_time = time()
+            elif "jump" in userinput or "off" in userinput and count == 4:
+                print(dedent("""
+                            Valiantly you leap off the magical horse and through the tiny hallway. You
+                            hear behind you the thunder of pillars falling, the castle shakes and you
+                            wait for the whole castle to come down upon you but it still stands.
+
+                            Gingerly you open the door at the end of the hallway and proceed further into
+                            the castle.
+                            """))
+
+                return "snake"
+            elif start_time > dodge_pillar and count == 1:
                 print(dedent("""
                             You crash into the pillar, knocking you off the magical horse falling to
                             your death.
                             """))
                 return "death"
-            elif "left" in userinput or "right" in userinput:
+
+            elif start_time > dodge_fire and count == 2:
                 print(dedent("""
-                            You dodge the giant pillar but now face a new problem, you are racing
-                            towards a wall of fire suspended between two pillars!
+                            The flame is the last thing you see as you are turned to ash.
                             """))
-            elif
-
+                return "death"
+            elif start_time > dodge_snake and count ==3:
                 print(dedent("""
-                            Dodging the fire you fly begin passing two large columns when suddenly a
-                            large python wrapped around one of the pillars attemps to bite you from
-                            above!
+                            The snake devours you whole, you suffocate and are digested in its belly.
                             """))
-pillars crumble as you see the exit jump off horse through hole
+                return "death"
+            elif start_time > stop_time and count ==4:
+                print(dedent("""
+                            Your horse gets stuck between the falling pillars and you are crushed between them.
+                            """))
+                return "death"
+            elif start_time > stop_time:
+                print(dedent("""
+                            Your horse becomes to quick to control and it jettisons off into the darkness.
+                            """))
+                return "death"
 
-                return "magical_horse"
+class Dragon(Scene):
+    def describe(self):
+        print(dedent("""
+                    You open the door to the next room and there before lies the dragon! He sleeps on the biggest
+                    pile of gold you have ever seen! And next to him is princess Daphne protected from harm and
+                    given eternal life in a sphere of magical power.
 
-b = Magical_Horse()
+                    Silently you move through a maze of expensive vases all stacked on top of each other. Deftly
+                    you manuvuer between them but accidentally bump into a tower of vases! Its about to fall!
+                    """))
+        input("Press ENTER to continue:")
+        start_time = time()
+        stop_time = start_time + 41
+        save_ceramic = start_time + 7
+        dodge_tail = start_time + 14
+        dodge_fire = start_time + 21
+        grab_sword = start_time + 28
+        attack = start_time + 35
+        count = 1
+
+        while start_time < stop_time:
+            userinput = input("What do you do? ")
+            start_time = time()
+            if "stop" in userinput or "grab" in userinput and count == 1 and start_time < save_ceramic:
+                print(dedent("""
+                            Quickly you grab the stack of urns and try to stabalize the stack but a gold piece
+                            falls from the mouth of an urn clinking on the ground then you hear the dragon begin
+                            to sniff around.
+
+                            You cower behind a pillar and as if sensing your fear the dragon whips its tail aiming
+                            at your pillar!
+                            """))
+                count += 1
+                start_time = time()
+            elif "roll" in userinput or "jump" in userinput and start_time < dodge_tail and count == 2:
+                print(dedent("""
+                            You roll away from the pillar just in time as the dragons tail reduces the pillar
+                            to stones. Drawing your sword you run at the beast to slay it. Just then the dragon
+                            rears back his head, mouth agape full of flame.
+                            """))
+                count +=1
+                start_time = time()
+            elif "pillar" in userinput and start_time < dodge_fire and count == 3:
+                print(dedent("""
+                            The pillar you take cover behind heats up and sizzles as the front of it melts. Over
+                            the roar of the fire through some sort of magical communciation you hear the angelic
+                            voice of princess Daphne. "The sword, get the magical blade! The dragon is immune to
+                            non magical weaponry!" Looking behind you see the blade.
+                            """))
+                count +=1
+                start_time = time()
+            elif "take" in userinput or "sword" in userinput or "blade" in userinput and start_time < grab_sword and count == 4:
+                print(dedent("""
+                            Laying on a pile of gold is the magical sword, you snatch it up as the dragon continues
+                            his feiry assault on the pillar. When he takes a breath you jump out from behind the
+                            pillar and face the beast, its nostrils still smoking from the intense flames.
+
+                            With the swiftness of a serpent it snaps at your face.
+                            """))
+                count +=1
+                start_time = time()
+            elif "dodge" in userinput and start_time < attack and count == 5:
+                print(dedent("""
+                            You side step out of the way of the dragons deadly attack. Its giant neck is outstreched
+                            before you.
+                            """))
+                count +=1
+                start_time = time()
+            elif "attack" in userinput or "chop" in userinput and start_time < attack and count == 6:
+                print(dedent("""
+                            With a heavy blow you chop the dragons head off rendering its head from its neck. The beast
+                            falls with a crash as a sickly gurgle emanating from its throat echos over the castles halls.
+                            """))
+                count +=1
+                start_time = time()
+                return "ending"
+
+            elif start_time > save_ceramic and count == 1:
+                print(dedent("""
+                            The cearmic crashes to the floor and without the element of surprise the dragon quickly eats you.
+                            """))
+                return "death"
+
+            elif start_time > dodge_tail and count == 2:
+                print(dedent("""
+                            The dragon smashes the pillar and you along with it.
+                            """))
+                return "death"
+            elif start_time > dodge_fire and count ==3:
+                print(dedent("""
+                            You hesitate before the dragons fearful gaze and are turned to ash beneath its flames.
+                            """))
+                return "death"
+            elif start_time > grab_sword and count ==4:
+                print(dedent("""
+                            The Dragons flames overcome the pillar and you are reduced to ashes.
+                            """))
+                return "death"
+            elif start_time > attack and count == 5:
+                print(dedent("""
+                            The dragon swallow you whole.
+                            """))
+                return "death"
+            elif start_time > stop_time and count == 6:
+                print(dedent("""
+                            You hesitate before taking the killing blow and the dragon feeling thankful squeeze you
+                            to death in gratitude.
+                            """))
+                return "death"
+
+
+
+b = Finished()
 
 b.describe()
 #    scenes = {"death" : Death(),
