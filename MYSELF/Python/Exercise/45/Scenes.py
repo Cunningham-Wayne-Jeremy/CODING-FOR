@@ -67,7 +67,7 @@ class Bridge(Scene):
                             """))
                 return "feiry_pit"
 
-class Feiry_pit(Scene):
+class Feiry_Pit(Scene):
     def describe(self):
         print(dedent("""
                     Leaning against the door you let out a sigh of relief then turn to face your
@@ -76,45 +76,91 @@ class Feiry_pit(Scene):
                     the only surviving peice of the floor that once rested here.
 
                     Three chandeliers hang low in front of you but the heat from the lake has lit
-                    them on fire. They sway with a slight beeze and you wonder if you wait 2 seconds
-                    then jump, wait 3 seconds then jump and then wait another 3 seconds and jump you
-                    might be able to jump across. Just as you think this you hear a click.
-                """)
+                    them on fire. They sway with a slight beeze and you wonder if you can use them
+                    to make it across. Just as you think this you hear a click
+                """))
         input("Press ENTER to continue")
         print(dedent("""
                     The ledge on which you stand begins to slide inward, it appears you have
-                    triggered a trap! Prese ENTER to jump!
+                    triggered a trap!
                 """))
+        input("Press ENTER to continue")
         start_time = time()
-        first_jump = start_time + 2
-        while start_time < first_jump:
-            userinput = input("Jump? ")
+        stop_time = start_time + 4
+        while start_time < stop_time:
+            userinput = input("What do you do? ")
             start_time = time()
-            if start_time < first__jump:
-                print(dedent("""
-                            You dont react fast enough and the beast warps another eye tentacle
-                            around your other leg and it pulls you into its toothy maw becoming its
-                            next meal.
-                            """))
+            if start_time > stop_time:
+                jumps = ["You jump to soon and fall into the lake of fire and brimstone below.",
+                         "You jump too late and fall into the lake of fire and brimstone below",
+                         "The ledge slips undeneath the wall pushing you into the lake of fire",
+                         "Leaping onto a chandelier you ignite in its flames falling to your death",
+                         "You jump THREE times onto the last chandelier but it falls into the fire"
+                         ]
+                print(jumps[(randint(0,4))])
                 return "death"
-            elif "sword" in userinput or "attack" in userinput:
+            elif "jump jump jump jump" in userinput or "grab grab grab grab" in userinput:
                 print(dedent("""
-                            In a panic, you draw your sword from your scabbard and cut the tentacle
-                            clean off from the beast, freeing your leg. Ignoring the beasts roar of
-                            pain, you hastily climb up to safety. As you rush to the door you hear
-                            the roar of  water coming behind you, and you can feel the tentacled
-                            beast inches away from your neck. Without looking back, you reach the
-                            door and bar the exit for good measure.
+                            You deftly leap and jump and hop from one chandelier to another safely
+                            arriving on the other side. You open the next door and see a staircase,
+                            hastily you go up the stairs to the next level of the dragons castle.
                             """))
                 return "magical_horse"
 
 
-b = Feiry_pit()
+class Magical_Horse(Scene):
+    def describe(self):
+        print(dedent("""
+                    At the top of the stairs you see a scarcely lit gigantic room. The room's size
+                    is much wider than should be possible given the castles exterior. Most of the
+                    "room" is actually a chasm with giant columns whose head nor tail you see due to
+                    the dim light. You stand on a small oulook of cobblestone overlooking the chasm
+                    and its crowded columns. The room is empty except for a suit of gilded horse
+                    armor.
+
+                    With naught to do you sit on the only available furniture, to think how to
+                    proceed further within the castle. The dragon must have flown past these columns
+                    but you lack wings and know not how to continue. As you think this the horse
+                    armor beneath you glows and suddenly takes flight through the chasm of columns!
+                    """))
+        input("Press ENTER to continue")
+        print(dedent("""
+                    You hang on tightly taking the reigns to steer as the steed you fly on speeds
+                    towards one of the large columns!"""))
+
+        start_time = time()
+        stop_time = start_time + 3
+        while start_time < stop_time:
+            userinput = input("What do you do? ")
+            start_time = time()
+            if start_time > stop_time:
+                print(dedent("""
+                            You crash into the pillar, knocking you off the magical horse falling to
+                            your death.
+                            """))
+                return "death"
+            elif "left" in userinput or "right" in userinput:
+                print(dedent("""
+                            You dodge the giant pillar but now face a new problem, you are racing
+                            towards a wall of fire suspended between two pillars!
+                            """))
+            elif
+
+                print(dedent("""
+                            Dodging the fire you fly begin passing two large columns when suddenly a
+                            large python wrapped around one of the pillars attemps to bite you from
+                            above!
+                            """))
+pillars crumble as you see the exit jump off horse through hole
+
+                return "magical_horse"
+
+b = Magical_Horse()
 
 b.describe()
 #    scenes = {"death" : Death(),
 #            "bridge" : Bridge(),
-#            "feiry_pit" : Feiry_pit(),
+#            "feiry_pit" : Feiry_Pit(),
 #            "magical_horse" : Magical_Horse(),
 #            "snake" : Snake(),
 #            "marbels" : Marbels(),
