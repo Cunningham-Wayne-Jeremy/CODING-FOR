@@ -15,7 +15,7 @@ class Death(Scene):
            "YOU DIED"
           ]
     def describe(self):
-        print(quips[(randint(0,(len(quips)-1)))])
+        print(self.quips[(randint(0,(len(self.quips)-1)))])
         exit(0)
 
 class Bridge(Scene):
@@ -45,7 +45,7 @@ class Bridge(Scene):
 
         input("Press ENTER to continue")
         start_time = time()
-        stop_time = start_time + 1.5
+        stop_time = start_time + 6
         while start_time < stop_time:
             userinput = input("What do you do? ")
             start_time = time()
@@ -86,7 +86,7 @@ class Feiry_Pit(Scene):
                 """))
         input("Press ENTER to continue")
         start_time = time()
-        stop_time = start_time + 4
+        stop_time = start_time + 8
         while start_time < stop_time:
             userinput = input("What do you do? ")
             start_time = time()
@@ -129,10 +129,10 @@ class Magical_Horse(Scene):
                     towards one of the large columns!"""))
 
         start_time = time()
-        stop_time = start_time + 12
-        dodge_pillar = start_time + 3
-        dodge_fire = start_time + 6
-        dodge_snake = start_time + 11
+        stop_time = start_time + 26
+        dodge_pillar = start_time + 6
+        dodge_fire = start_time + 12
+        dodge_snake = start_time + 19
         count = 1
 
         while start_time < stop_time:
@@ -171,7 +171,7 @@ class Magical_Horse(Scene):
                             the castle.
                             """))
 
-                return "snake"
+                return "dragon"
             elif start_time > dodge_pillar and count == 1:
                 print(dedent("""
                             You crash into the pillar, knocking you off the magical horse falling to
@@ -300,7 +300,7 @@ class Dragon(Scene):
                 return "death"
             elif start_time > attack and count == 5:
                 print(dedent("""
-                            The dragon swallow you whole.
+                            The dragon swallows you whole.
                             """))
                 return "death"
             elif start_time > stop_time and count == 6:
@@ -311,17 +311,12 @@ class Dragon(Scene):
                 return "death"
 
 
+class Finished(Scene):
 
-b = Finished()
+    def describe(self):
+        print(dedent("""
+                With the foul dragon slain the princess is free from her confinement. Grateful she falls in your arms.
 
-b.describe()
-#    scenes = {"death" : Death(),
-#            "bridge" : Bridge(),
-#            "feiry_pit" : Feiry_Pit(),
-#            "magical_horse" : Magical_Horse(),
-#            "snake" : Snake(),
-#            "marbels" : Marbels(),
-#            "dragon" : Dragon(),
-#            "finished" : Finished()
-#            }
+                THE END
+                """))
 
