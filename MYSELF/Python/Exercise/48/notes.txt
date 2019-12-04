@@ -1498,5 +1498,50 @@ definition I have found so far!
 I am sure I will evolve my definition of self as I continue but so far that is the most practical
 definition I have as of yet.
 ----------------------------------------------------------------------------------------------------
+I learned about return "a string" and using that string as a key value in a dictionary is powerful
+from ex 45.py further enchancing my knowledge of a thing can be used with another thing. I really like
+that outlook on coding and its quite powerful and leads to out of the box thinking.
+----------------------------------------------------------------------------------------------------
+In python you can allow a function to take as many args as you want with *args or **kw depending on
+what argument you want. (Still need to learn the differences between the 2 arguments!
+----------------------------------------------------------------------------------------------------
+ValueError is a class and its a category of a class called an exception class.
+You can call these at the end of except blocks.
+Keyboard interrrupt is also a class! How about that!
+----------------------------------------------------------------------------------------------------
+Except blocks are kind of like if statements because you can have different classes called for
+different errors which is really intriguing. For example
+
+except ValueError:
+
+except KeyboardInterrupt
+
+except:
+  print("ERROR")
+----------------------------------------------------------------------------------------------------
+Alot of Python engineers will use the """ for multiple line comments and just not include it into a
+print statement. Pretty clever.
+----------------------------------------------------------------------------------------------------
+Return is a dangerous thing in for loops, BE ALERT when using return as it will exit the for loop.
+Here is a real world example: I was working on making a function that will take a sentence and extract
+all of the direction words from that sentence and add them to the tuple but I was only getting the first
+one each time I ran my python script. The code is below can you spot the problem?
+
+def scan(sentence):
+    words = sentence.split()
+    directions = ["south" , "north", "east", "west", "down", "up", "left" , "right", "back"]
+    mytuple=()
+    for word in words:
+        if word in directions:
+            mytuple += ("directions", word)
+        return mytuple
+print(scan("I will go south then north then south then right then down"))
+
+Thats right you included the return in the for loop! STOP DOING THAT JEREMY
+----------------------------------------------------------------------------------------------------
+
+
+
+
 
 
